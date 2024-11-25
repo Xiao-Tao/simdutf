@@ -1,0 +1,60 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+===========================
+Using ICU version 72.1
+testcases: 4
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+convert_latin1_to_utf8+fallback, input size: 82168, iterations: 30000, dataset: wikipedia_mars/esperanto.latin1.txt
+   3.059 ins/byte,    0.717 cycle/byte,    3.491 GB/s (10.9 %),     2.504 GHz,    4.263 ins/cycle 
+   3.059 ins/char,    0.717 cycle/char,    3.491 Gc/s (10.9 %)     1.00 byte/char  23540.0 ns
+WARNING: Measurements are noisy, try increasing iteration count (-I).
+convert_latin1_to_utf8+lasx, input size: 82168, iterations: 30000, dataset: wikipedia_mars/esperanto.latin1.txt
+   0.658 ins/byte,    0.194 cycle/byte,   13.022 GB/s (2.6 %),     2.520 GHz,    3.398 ins/cycle 
+   0.658 ins/char,    0.194 cycle/char,   13.022 Gc/s (2.6 %)     1.00 byte/char   6310.0 ns
+convert_latin1_to_utf8+lsx, input size: 82168, iterations: 30000, dataset: wikipedia_mars/esperanto.latin1.txt
+   0.847 ins/byte,    0.207 cycle/byte,   12.155 GB/s (1.1 %),     2.516 GHz,    4.091 ins/cycle 
+   0.847 ins/char,    0.207 cycle/char,   12.155 Gc/s (1.1 %)     1.00 byte/char   6760.0 ns
+input detected as unknown
+current system detected as lsx
+===========================
+convert_latin1_to_utf8+fallback, input size: 432305, iterations: 30000, dataset: wikipedia_mars/french.latin1.txt
+   5.054 ins/byte,    1.707 cycle/byte,    1.465 GB/s (1.4 %),     2.500 GHz,    2.961 ins/cycle 
+   5.054 ins/char,    1.707 cycle/char,    1.465 Gc/s (1.4 %)     1.00 byte/char 295090.0 ns
+convert_latin1_to_utf8+lasx, input size: 432305, iterations: 30000, dataset: wikipedia_mars/french.latin1.txt
+   1.080 ins/byte,    0.299 cycle/byte,    8.365 GB/s (2.4 %),     2.503 GHz,    3.610 ins/cycle 
+   1.080 ins/char,    0.299 cycle/char,    8.365 Gc/s (2.4 %)     1.00 byte/char  51680.0 ns
+convert_latin1_to_utf8+lsx, input size: 432305, iterations: 30000, dataset: wikipedia_mars/french.latin1.txt
+   1.309 ins/byte,    0.561 cycle/byte,    4.456 GB/s (2.7 %),     2.502 GHz,    2.331 ins/cycle 
+   1.309 ins/char,    0.561 cycle/char,    4.456 Gc/s (2.7 %)     1.00 byte/char  97020.0 ns
+input detected as unknown
+current system detected as lsx
+===========================
+convert_latin1_to_utf8+fallback, input size: 199331, iterations: 30000, dataset: wikipedia_mars/german.latin1.txt
+   3.819 ins/byte,    1.098 cycle/byte,    2.278 GB/s (1.1 %),     2.502 GHz,    3.477 ins/cycle 
+   3.819 ins/char,    1.098 cycle/char,    2.278 Gc/s (1.1 %)     1.00 byte/char  87510.0 ns
+convert_latin1_to_utf8+lasx, input size: 199331, iterations: 30000, dataset: wikipedia_mars/german.latin1.txt
+   0.827 ins/byte,    0.219 cycle/byte,   11.462 GB/s (0.7 %),     2.508 GHz,    3.781 ins/cycle 
+   0.827 ins/char,    0.219 cycle/char,   11.462 Gc/s (0.7 %)     1.00 byte/char  17390.0 ns
+convert_latin1_to_utf8+lsx, input size: 199331, iterations: 30000, dataset: wikipedia_mars/german.latin1.txt
+   1.024 ins/byte,    0.248 cycle/byte,   10.118 GB/s (1.3 %),     2.507 GHz,    4.134 ins/cycle 
+   1.024 ins/char,    0.248 cycle/char,   10.118 Gc/s (1.3 %)     1.00 byte/char  19700.0 ns
+input detected as unknown
+current system detected as lsx
+===========================
+convert_latin1_to_utf8+fallback, input size: 271743, iterations: 30000, dataset: wikipedia_mars/portuguese.latin1.txt
+   4.603 ins/byte,    1.420 cycle/byte,    1.761 GB/s (1.5 %),     2.501 GHz,    3.240 ins/cycle 
+   4.603 ins/char,    1.420 cycle/char,    1.761 Gc/s (1.5 %)     1.00 byte/char 154340.0 ns
+convert_latin1_to_utf8+lasx, input size: 271743, iterations: 30000, dataset: wikipedia_mars/portuguese.latin1.txt
+   0.991 ins/byte,    0.242 cycle/byte,   10.360 GB/s (0.7 %),     2.505 GHz,    4.098 ins/cycle 
+   0.991 ins/char,    0.242 cycle/char,   10.360 Gc/s (0.7 %)     1.00 byte/char  26230.0 ns
+convert_latin1_to_utf8+lsx, input size: 271743, iterations: 30000, dataset: wikipedia_mars/portuguese.latin1.txt
+   1.207 ins/byte,    0.362 cycle/byte,    6.916 GB/s (2.6 %),     2.503 GHz,    3.335 ins/cycle 
+   1.207 ins/char,    0.362 cycle/char,    6.916 Gc/s (2.6 %)     1.00 byte/char  39290.0 ns
+
+                                       fallback           lasx              lsx
+wikipedia_mars/esperanto.latin1.txt	   3.491 GB/s  	  13.022 GB/s  	  12.155 GB/s  	
+wikipedia_mars/french.latin1.txt	   1.465 GB/s  	   8.365 GB/s  	   4.456 GB/s  	
+wikipedia_mars/german.latin1.txt	   2.278 GB/s  	  11.462 GB/s  	  10.118 GB/s  	
+wikipedia_mars/portuguese.latin1.txt	   1.761 GB/s  	  10.360 GB/s  	   6.916 GB/s  

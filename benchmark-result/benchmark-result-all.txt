@@ -1,0 +1,880 @@
+
+
+convert_latin1_to_utf16:
+                                       fallback           lasx              lsx
+wikipedia_mars/esperanto.latin1.txt	  10.082 GB/s  	  18.019 GB/s  	  15.188 GB/s  	
+wikipedia_mars/french.latin1.txt	  10.198 GB/s  	  12.767 GB/s  	  12.866 GB/s  	
+wikipedia_mars/german.latin1.txt	  10.180 GB/s  	  13.280 GB/s  	  13.468 GB/s  	
+wikipedia_mars/portuguese.latin1.txt	  10.185 GB/s  	  13.058 GB/s  	  13.140 GB/s  
+
+
+convert_latin1_to_utf32:
+                                       fallback           lasx              lsx
+wikipedia_mars/esperanto.latin1.txt	   5.694 GB/s  	   7.701 GB/s  	   7.636 GB/s  	
+wikipedia_mars/french.latin1.txt	   5.638 GB/s  	   7.288 GB/s  	   7.243 GB/s  	
+wikipedia_mars/german.latin1.txt	   5.756 GB/s  	   7.377 GB/s  	   7.372 GB/s  	
+wikipedia_mars/portuguese.latin1.txt	   5.754 GB/s  	   7.360 GB/s  	   7.289 GB/s  
+
+
+convert_latin1_to_utf8:
+
+wikipedia_mars/esperanto.latin1.txt	   3.491 GB/s  	  13.022 GB/s  	  12.155 GB/s  	
+wikipedia_mars/french.latin1.txt	   1.465 GB/s  	   8.365 GB/s  	   4.456 GB/s  	
+wikipedia_mars/german.latin1.txt	   2.278 GB/s  	  11.462 GB/s  	  10.118 GB/s  	
+wikipedia_mars/portuguese.latin1.txt	   1.761 GB/s  	  10.360 GB/s  	   6.916 GB/s  
+
+
+convert_utf16_to_latin1:
+                                   fallback           lasx              lsx	
+lipsum/Latin-Lipsum.utf16.txt	  23.000 GB/s  	  26.547 GB/s  	  26.506 GB/s  
+
+
+convert_utf16_to_latin1_with_errors:
+                                   fallback           lasx              lsx	
+lipsum/Latin-Lipsum.utf16.txt	   5.765 GB/s  	  26.547 GB/s  	  26.547 GB/s  
+
+
+convert_utf16_to_utf32:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf16.txt	   2.477 GB/s  	  15.357 GB/s  	  13.246 GB/s  		
+lipsum/Chinese-Lipsum.utf16.txt	   2.276 GB/s  	  14.896 GB/s  	  13.217 GB/s  		
+lipsum/Emoji-Lipsum.utf16.txt	   1.869 GB/s  	   1.858 GB/s  	   1.863 GB/s  		
+lipsum/Hebrew-Lipsum.utf16.txt	   2.495 GB/s  	  15.416 GB/s  	  13.229 GB/s  		
+lipsum/Hindi-Lipsum.utf16.txt	   2.494 GB/s  	  15.311 GB/s  	  13.212 GB/s  		
+lipsum/Japanese-Lipsum.utf16.txt	   2.491 GB/s  	  15.203 GB/s  	  13.206 GB/s  		
+lipsum/Korean-Lipsum.utf16.txt	   2.486 GB/s  	  15.336 GB/s  	  13.209 GB/s  		
+lipsum/Latin-Lipsum.utf16.txt	   2.460 GB/s  	  13.386 GB/s  	  12.474 GB/s  		
+lipsum/Russian-Lipsum.utf16.txt	   2.445 GB/s  	  13.756 GB/s  	  12.828 GB/s  		
+wikipedia_mars/arabic.utf16.txt	   2.448 GB/s  	  12.529 GB/s  	  11.872 GB/s  		
+wikipedia_mars/chinese.utf16.txt	   2.461 GB/s  	  13.024 GB/s  	  12.202 GB/s  		
+wikipedia_mars/czech.utf16.txt	   2.461 GB/s  	  12.958 GB/s  	  12.153 GB/s  		
+wikipedia_mars/english.utf16.txt	   2.463 GB/s  	  12.547 GB/s  	  11.881 GB/s  		
+wikipedia_mars/esperanto.utf16.txt	   2.460 GB/s  	  13.417 GB/s  	  12.463 GB/s  		
+wikipedia_mars/french.utf16.txt	   2.463 GB/s  	  12.538 GB/s  	  11.875 GB/s  		
+wikipedia_mars/german.utf16.txt	   2.462 GB/s  	  12.772 GB/s  	  12.027 GB/s  		
+wikipedia_mars/greek.utf16.txt	   2.461 GB/s  	  12.953 GB/s  	  12.139 GB/s  		
+wikipedia_mars/hebrew.utf16.txt	   2.462 GB/s  	  12.969 GB/s  	  12.166 GB/s  		
+wikipedia_mars/hindi.utf16.txt	   2.462 GB/s  	  12.663 GB/s  	  11.955 GB/s  		
+wikipedia_mars/japanese.utf16.txt	   2.461 GB/s  	  13.137 GB/s  	  12.257 GB/s  		
+wikipedia_mars/korean.utf16.txt	   2.459 GB/s  	  13.797 GB/s  	  12.649 GB/s  		
+wikipedia_mars/persan.utf16.txt	   2.461 GB/s  	  13.230 GB/s  	  12.261 GB/s  		
+wikipedia_mars/portuguese.utf16.txt	   2.463 GB/s  	  12.201 GB/s  	  11.401 GB/s  		
+wikipedia_mars/russian.utf16.txt	   2.462 GB/s  	  12.674 GB/s  	  11.939 GB/s  		
+wikipedia_mars/thai.utf16.txt	   2.462 GB/s  	  12.553 GB/s  	  11.878 GB/s  		
+wikipedia_mars/turkish.utf16.txt	   2.462 GB/s  	  12.829 GB/s  	  12.069 GB/s  		
+wikipedia_mars/vietnamese.utf16.txt	   2.462 GB/s  	  12.650 GB/s  	  11.949 GB/s  
+
+
+convert_utf16_to_utf32_with_errors:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf16.txt	   2.472 GB/s  	  15.255 GB/s  	  13.208 GB/s  		
+lipsum/Chinese-Lipsum.utf16.txt	   2.481 GB/s  	  14.663 GB/s  	  13.199 GB/s  		
+lipsum/Emoji-Lipsum.utf16.txt	   1.793 GB/s  	   1.858 GB/s  	   1.841 GB/s  		
+lipsum/Hebrew-Lipsum.utf16.txt	   2.484 GB/s  	  14.922 GB/s  	  13.206 GB/s  		
+lipsum/Hindi-Lipsum.utf16.txt	   2.483 GB/s  	  15.065 GB/s  	  13.186 GB/s  		
+lipsum/Japanese-Lipsum.utf16.txt	   2.481 GB/s  	  14.609 GB/s  	  13.188 GB/s  		
+lipsum/Korean-Lipsum.utf16.txt	   2.482 GB/s  	  14.555 GB/s  	  13.177 GB/s  		
+lipsum/Latin-Lipsum.utf16.txt	   2.446 GB/s  	  13.324 GB/s  	  12.528 GB/s  		
+lipsum/Russian-Lipsum.utf16.txt	   2.439 GB/s  	  13.821 GB/s  	  12.899 GB/s  		
+wikipedia_mars/arabic.utf16.txt	   2.448 GB/s  	  12.530 GB/s  	  11.877 GB/s  		
+wikipedia_mars/chinese.utf16.txt	   2.435 GB/s  	  13.036 GB/s  	  12.180 GB/s  		
+wikipedia_mars/czech.utf16.txt	   2.436 GB/s  	  13.005 GB/s  	  12.153 GB/s  		
+wikipedia_mars/english.utf16.txt	   2.436 GB/s  	  12.561 GB/s  	  11.881 GB/s  		
+wikipedia_mars/esperanto.utf16.txt	   2.434 GB/s  	  13.591 GB/s  	  12.472 GB/s  		
+wikipedia_mars/french.utf16.txt	   2.437 GB/s  	  12.552 GB/s  	  11.877 GB/s  		
+wikipedia_mars/german.utf16.txt	   2.436 GB/s  	  12.837 GB/s  	  12.020 GB/s  		
+wikipedia_mars/greek.utf16.txt	   2.435 GB/s  	  13.083 GB/s  	  12.165 GB/s  		
+wikipedia_mars/hebrew.utf16.txt	   2.436 GB/s  	  12.986 GB/s  	  12.181 GB/s  		
+wikipedia_mars/hindi.utf16.txt	   2.436 GB/s  	  12.663 GB/s  	  11.966 GB/s  		
+wikipedia_mars/japanese.utf16.txt	   2.435 GB/s  	  13.166 GB/s  	  12.270 GB/s  		
+wikipedia_mars/korean.utf16.txt	   2.434 GB/s  	  13.745 GB/s  	  12.616 GB/s  		
+wikipedia_mars/persan.utf16.txt	   2.435 GB/s  	  13.167 GB/s  	  12.267 GB/s  		
+wikipedia_mars/portuguese.utf16.txt	   2.435 GB/s  	  12.067 GB/s  	  11.379 GB/s  		
+wikipedia_mars/russian.utf16.txt	   2.436 GB/s  	  12.651 GB/s  	  11.965 GB/s  		
+wikipedia_mars/thai.utf16.txt	   2.437 GB/s  	  12.558 GB/s  	  11.885 GB/s  		
+wikipedia_mars/turkish.utf16.txt	   2.436 GB/s  	  12.882 GB/s  	  12.085 GB/s  		
+wikipedia_mars/vietnamese.utf16.txt	   2.436 GB/s  	  12.659 GB/s  	  11.964 GB/s  
+
+
+convert_utf16_to_utf8:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf16.txt	   0.985 GB/s  	   3.303 GB/s  	   3.352 GB/s  		
+lipsum/Chinese-Lipsum.utf16.txt	   0.771 GB/s  	   2.781 GB/s  	   2.468 GB/s  		
+lipsum/Emoji-Lipsum.utf16.txt	   1.006 GB/s  	   0.888 GB/s  	   1.095 GB/s  		
+lipsum/Hebrew-Lipsum.utf16.txt	   0.986 GB/s  	   3.281 GB/s  	   3.355 GB/s  		
+lipsum/Hindi-Lipsum.utf16.txt	   0.657 GB/s  	   2.792 GB/s  	   2.441 GB/s  		
+lipsum/Japanese-Lipsum.utf16.txt	   0.736 GB/s  	   2.784 GB/s  	   2.458 GB/s  		
+lipsum/Korean-Lipsum.utf16.txt	   0.866 GB/s  	   2.794 GB/s  	   2.439 GB/s  		
+lipsum/Latin-Lipsum.utf16.txt	   4.997 GB/s  	  25.914 GB/s  	  24.456 GB/s  		
+lipsum/Russian-Lipsum.utf16.txt	   0.753 GB/s  	   3.323 GB/s  	   3.364 GB/s  		
+wikipedia_mars/arabic.utf16.txt	   1.448 GB/s  	   6.313 GB/s  	   6.522 GB/s  		
+wikipedia_mars/chinese.utf16.txt	   1.889 GB/s  	   5.549 GB/s  	   5.721 GB/s  		
+wikipedia_mars/czech.utf16.txt	   1.961 GB/s  	   6.727 GB/s  	   7.310 GB/s  		
+wikipedia_mars/english.utf16.txt	   4.639 GB/s  	  15.804 GB/s  	  16.617 GB/s  		
+wikipedia_mars/esperanto.utf16.txt	   3.715 GB/s  	  11.330 GB/s  	  13.145 GB/s  		
+wikipedia_mars/french.utf16.txt	   2.847 GB/s  	   7.165 GB/s  	   8.042 GB/s  		
+wikipedia_mars/german.utf16.txt	   3.630 GB/s  	  11.400 GB/s  	  13.586 GB/s  		
+wikipedia_mars/greek.utf16.txt	   1.546 GB/s  	   6.699 GB/s  	   7.184 GB/s  		
+wikipedia_mars/hebrew.utf16.txt	   1.280 GB/s  	   5.821 GB/s  	   6.388 GB/s  		
+wikipedia_mars/hindi.utf16.txt	   1.435 GB/s  	   5.360 GB/s  	   5.113 GB/s  		
+wikipedia_mars/japanese.utf16.txt	   1.824 GB/s  	   5.387 GB/s  	   5.558 GB/s  		
+wikipedia_mars/korean.utf16.txt	   1.613 GB/s  	   5.364 GB/s  	   5.512 GB/s  		
+wikipedia_mars/persan.utf16.txt	   1.514 GB/s  	   6.344 GB/s  	   7.047 GB/s  		
+wikipedia_mars/portuguese.utf16.txt	   3.115 GB/s  	   9.403 GB/s  	  11.318 GB/s  		
+wikipedia_mars/russian.utf16.txt	   1.316 GB/s  	   5.790 GB/s  	   6.009 GB/s  		
+wikipedia_mars/thai.utf16.txt	   1.772 GB/s  	   5.675 GB/s  	   5.385 GB/s  		
+wikipedia_mars/turkish.utf16.txt	   2.142 GB/s  	   7.644 GB/s  	   7.861 GB/s  		
+wikipedia_mars/vietnamese.utf16.txt	   1.330 GB/s  	   4.530 GB/s  	   3.932 GB/s  
+
+
+convert_utf16_to_utf8_with_errors:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf16.txt	   0.966 GB/s  	   3.283 GB/s  	   3.355 GB/s  		
+lipsum/Chinese-Lipsum.utf16.txt	   0.795 GB/s  	   2.863 GB/s  	   2.458 GB/s  		
+lipsum/Emoji-Lipsum.utf16.txt	   1.006 GB/s  	   1.077 GB/s  	   1.059 GB/s  		
+lipsum/Hebrew-Lipsum.utf16.txt	   0.969 GB/s  	   3.290 GB/s  	   3.355 GB/s  		
+lipsum/Hindi-Lipsum.utf16.txt	   0.665 GB/s  	   2.848 GB/s  	   2.418 GB/s  		
+lipsum/Japanese-Lipsum.utf16.txt	   0.765 GB/s  	   2.847 GB/s  	   2.386 GB/s  		
+lipsum/Korean-Lipsum.utf16.txt	   0.851 GB/s  	   2.848 GB/s  	   2.429 GB/s  		
+lipsum/Latin-Lipsum.utf16.txt	   4.997 GB/s  	  27.212 GB/s  	  24.629 GB/s  		
+lipsum/Russian-Lipsum.utf16.txt	   0.739 GB/s  	   3.311 GB/s  	   3.363 GB/s  		
+wikipedia_mars/arabic.utf16.txt	   1.445 GB/s  	   4.459 GB/s  	   6.602 GB/s  		
+wikipedia_mars/chinese.utf16.txt	   1.864 GB/s  	   5.503 GB/s  	   5.777 GB/s  		
+wikipedia_mars/czech.utf16.txt	   1.893 GB/s  	   4.873 GB/s  	   7.464 GB/s  		
+wikipedia_mars/english.utf16.txt	   4.604 GB/s  	  15.993 GB/s  	  16.621 GB/s  		
+wikipedia_mars/esperanto.utf16.txt	   3.618 GB/s  	   9.609 GB/s  	  13.207 GB/s  		
+wikipedia_mars/french.utf16.txt	   2.798 GB/s  	   6.081 GB/s  	   8.185 GB/s  		
+wikipedia_mars/german.utf16.txt	   3.589 GB/s  	   9.496 GB/s  	  13.596 GB/s  		
+wikipedia_mars/greek.utf16.txt	   1.540 GB/s  	   4.424 GB/s  	   7.177 GB/s  		
+wikipedia_mars/hebrew.utf16.txt	   1.283 GB/s  	   3.967 GB/s  	   6.409 GB/s  		
+wikipedia_mars/hindi.utf16.txt	   1.441 GB/s  	   5.260 GB/s  	   5.120 GB/s  		
+wikipedia_mars/japanese.utf16.txt	   1.810 GB/s  	   5.329 GB/s  	   5.604 GB/s  		
+wikipedia_mars/korean.utf16.txt	   1.588 GB/s  	   5.315 GB/s  	   5.539 GB/s  		
+wikipedia_mars/persan.utf16.txt	   1.499 GB/s  	   5.490 GB/s  	   7.053 GB/s  		
+wikipedia_mars/portuguese.utf16.txt	   3.066 GB/s  	   7.088 GB/s  	  11.424 GB/s  		
+wikipedia_mars/russian.utf16.txt	   1.320 GB/s  	   4.098 GB/s  	   6.058 GB/s  		
+wikipedia_mars/thai.utf16.txt	   1.791 GB/s  	   5.590 GB/s  	   5.389 GB/s  		
+wikipedia_mars/turkish.utf16.txt	   2.074 GB/s  	   5.966 GB/s  	   7.957 GB/s  		
+wikipedia_mars/vietnamese.utf16.txt	   1.296 GB/s  	   4.099 GB/s  	   3.886 GB/s  
+
+
+convert_utf32_to_latin1:
+                                   fallback           lasx              lsx	
+lipsum/Latin-Lipsum.utf32.txt	  31.875 GB/s  	  33.088 GB/s  	  20.207 GB/s  
+
+
+convert_utf32_to_latin1_with_errors:
+                                   fallback           lasx              lsx	
+lipsum/Latin-Lipsum.utf32.txt	   6.621 GB/s  	  33.026 GB/s  	  20.254 GB/s  
+
+
+convert_utf32_to_utf16:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf32.txt	   4.858 GB/s  	  26.263 GB/s  	  19.941 GB/s  		
+lipsum/Chinese-Lipsum.utf32.txt	   4.986 GB/s  	  26.139 GB/s  	  19.881 GB/s  		
+lipsum/Emoji-Lipsum.utf32.txt	   2.956 GB/s  	   2.850 GB/s  	   2.141 GB/s  		
+lipsum/Hebrew-Lipsum.utf32.txt	   4.676 GB/s  	  26.271 GB/s  	  19.949 GB/s  		
+lipsum/Hindi-Lipsum.utf32.txt	   4.676 GB/s  	  26.370 GB/s  	  19.918 GB/s  		
+lipsum/Japanese-Lipsum.utf32.txt	   4.675 GB/s  	  26.153 GB/s  	  19.893 GB/s  		
+lipsum/Korean-Lipsum.utf32.txt	   4.676 GB/s  	  26.482 GB/s  	  19.922 GB/s  		
+lipsum/Latin-Lipsum.utf32.txt	   4.842 GB/s  	  25.779 GB/s  	  19.929 GB/s  		
+lipsum/Russian-Lipsum.utf32.txt	   4.509 GB/s  	  25.769 GB/s  	  19.890 GB/s  		
+wikipedia_mars/arabic.utf32.txt	   4.893 GB/s  	  25.647 GB/s  	  19.986 GB/s  		
+wikipedia_mars/chinese.utf32.txt	   4.857 GB/s  	  25.779 GB/s  	  19.958 GB/s  		
+wikipedia_mars/czech.utf32.txt	   4.513 GB/s  	  25.788 GB/s  	  19.963 GB/s  		
+wikipedia_mars/english.utf32.txt	   4.798 GB/s  	  25.650 GB/s  	  19.982 GB/s  		
+wikipedia_mars/esperanto.utf32.txt	   4.592 GB/s  	  25.746 GB/s  	  19.935 GB/s  		
+wikipedia_mars/french.utf32.txt	   4.880 GB/s  	  25.648 GB/s  	  19.985 GB/s  		
+wikipedia_mars/german.utf32.txt	   4.856 GB/s  	  25.714 GB/s  	  19.972 GB/s  		
+wikipedia_mars/greek.utf32.txt	   4.844 GB/s  	  25.742 GB/s  	  19.958 GB/s  		
+wikipedia_mars/hebrew.utf32.txt	   4.562 GB/s  	  25.721 GB/s  	  19.959 GB/s  		
+wikipedia_mars/hindi.utf32.txt	   4.829 GB/s  	  25.664 GB/s  	  19.979 GB/s  		
+wikipedia_mars/japanese.utf32.txt	   4.592 GB/s  	  25.762 GB/s  	  19.957 GB/s  		
+wikipedia_mars/korean.utf32.txt	   4.590 GB/s  	  25.766 GB/s  	  19.909 GB/s  		
+wikipedia_mars/persan.utf32.txt	   4.592 GB/s  	  25.750 GB/s  	  19.951 GB/s  		
+wikipedia_mars/portuguese.utf32.txt	   4.622 GB/s  	  25.667 GB/s  	  19.910 GB/s  		
+wikipedia_mars/russian.utf32.txt	   4.558 GB/s  	  25.661 GB/s  	  19.980 GB/s  		
+wikipedia_mars/thai.utf32.txt	   4.603 GB/s  	  25.650 GB/s  	  19.983 GB/s  		
+wikipedia_mars/turkish.utf32.txt	   4.513 GB/s  	  25.702 GB/s  	  19.967 GB/s  		
+wikipedia_mars/vietnamese.utf32.txt	   4.712 GB/s  	  25.686 GB/s  	  19.977 GB/s  
+
+
+convert_utf32_to_utf16_with_errors:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf32.txt	   4.673 GB/s  	  22.243 GB/s  	  23.201 GB/s  		
+lipsum/Chinese-Lipsum.utf32.txt	   4.986 GB/s  	  22.184 GB/s  	  19.839 GB/s  		
+lipsum/Emoji-Lipsum.utf32.txt	   3.047 GB/s  	   2.889 GB/s  	   2.141 GB/s  		
+lipsum/Hebrew-Lipsum.utf32.txt	   4.566 GB/s  	  22.272 GB/s  	  23.316 GB/s  		
+lipsum/Hindi-Lipsum.utf32.txt	   4.562 GB/s  	  22.289 GB/s  	  19.888 GB/s  		
+lipsum/Japanese-Lipsum.utf32.txt	   4.986 GB/s  	  22.155 GB/s  	  19.851 GB/s  		
+lipsum/Korean-Lipsum.utf32.txt	   4.564 GB/s  	  22.158 GB/s  	  23.200 GB/s  		
+lipsum/Latin-Lipsum.utf32.txt	   4.842 GB/s  	  22.193 GB/s  	  23.015 GB/s  		
+lipsum/Russian-Lipsum.utf32.txt	   4.600 GB/s  	  22.088 GB/s  	  23.008 GB/s  		
+wikipedia_mars/arabic.utf32.txt	   4.844 GB/s  	  22.145 GB/s  	  23.080 GB/s  		
+wikipedia_mars/chinese.utf32.txt	   4.819 GB/s  	  22.202 GB/s  	  23.138 GB/s  		
+wikipedia_mars/czech.utf32.txt	   4.820 GB/s  	  22.231 GB/s  	  23.106 GB/s  		
+wikipedia_mars/english.utf32.txt	   4.822 GB/s  	  22.147 GB/s  	  23.097 GB/s  		
+wikipedia_mars/esperanto.utf32.txt	   4.817 GB/s  	  22.211 GB/s  	  23.111 GB/s  		
+wikipedia_mars/french.utf32.txt	   4.822 GB/s  	  22.139 GB/s  	  23.070 GB/s  		
+wikipedia_mars/german.utf32.txt	   4.821 GB/s  	  22.160 GB/s  	  23.069 GB/s  		
+wikipedia_mars/greek.utf32.txt	   4.820 GB/s  	  22.188 GB/s  	  23.148 GB/s  		
+wikipedia_mars/hebrew.utf32.txt	   4.820 GB/s  	  22.208 GB/s  	  23.111 GB/s  		
+wikipedia_mars/hindi.utf32.txt	   4.821 GB/s  	  22.156 GB/s  	  23.065 GB/s  		
+wikipedia_mars/japanese.utf32.txt	   4.819 GB/s  	  22.212 GB/s  	  23.074 GB/s  		
+wikipedia_mars/korean.utf32.txt	   4.816 GB/s  	  22.214 GB/s  	  23.039 GB/s  		
+wikipedia_mars/persan.utf32.txt	   4.819 GB/s  	  22.227 GB/s  	  23.113 GB/s  		
+wikipedia_mars/portuguese.utf32.txt	   4.847 GB/s  	  22.146 GB/s  	  22.173 GB/s  		
+wikipedia_mars/russian.utf32.txt	   4.822 GB/s  	  22.158 GB/s  	  23.075 GB/s  		
+wikipedia_mars/thai.utf32.txt	   4.822 GB/s  	  22.148 GB/s  	  23.080 GB/s  		
+wikipedia_mars/turkish.utf32.txt	   4.821 GB/s  	  22.182 GB/s  	  23.108 GB/s  		
+wikipedia_mars/vietnamese.utf32.txt	   4.821 GB/s  	  22.146 GB/s  	  23.111 GB/s  
+
+
+convert_utf32_to_utf8:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf32.txt	   2.418 GB/s  	  14.471 GB/s  	   9.965 GB/s  		
+lipsum/Chinese-Lipsum.utf32.txt	   1.430 GB/s  	   7.093 GB/s  	   6.689 GB/s  		
+lipsum/Emoji-Lipsum.utf32.txt	   1.567 GB/s  	   1.404 GB/s  	   1.848 GB/s  		
+lipsum/Hebrew-Lipsum.utf32.txt	   2.416 GB/s  	  14.431 GB/s  	   9.961 GB/s  		
+lipsum/Hindi-Lipsum.utf32.txt	   1.370 GB/s  	   7.225 GB/s  	   6.643 GB/s  		
+lipsum/Japanese-Lipsum.utf32.txt	   1.458 GB/s  	   7.088 GB/s  	   6.622 GB/s  		
+lipsum/Korean-Lipsum.utf32.txt	   1.897 GB/s  	   7.181 GB/s  	   6.620 GB/s  		
+lipsum/Latin-Lipsum.utf32.txt	   6.433 GB/s  	  30.266 GB/s  	  19.918 GB/s  		
+lipsum/Russian-Lipsum.utf32.txt	   1.746 GB/s  	  14.124 GB/s  	   9.941 GB/s  		
+wikipedia_mars/arabic.utf32.txt	   2.730 GB/s  	  14.583 GB/s  	  10.819 GB/s  		
+wikipedia_mars/chinese.utf32.txt	   3.206 GB/s  	  11.936 GB/s  	   9.320 GB/s  		
+wikipedia_mars/czech.utf32.txt	   3.545 GB/s  	  13.837 GB/s  	   9.256 GB/s  		
+wikipedia_mars/english.utf32.txt	   6.023 GB/s  	  26.840 GB/s  	  18.435 GB/s  		
+wikipedia_mars/esperanto.utf32.txt	   5.031 GB/s  	  20.332 GB/s  	  14.461 GB/s  		
+wikipedia_mars/french.utf32.txt	   4.484 GB/s  	  12.640 GB/s  	  10.966 GB/s  		
+wikipedia_mars/german.utf32.txt	   5.070 GB/s  	  18.687 GB/s  	  14.066 GB/s  		
+wikipedia_mars/greek.utf32.txt	   2.937 GB/s  	  16.049 GB/s  	  11.191 GB/s  		
+wikipedia_mars/hebrew.utf32.txt	   2.499 GB/s  	  14.345 GB/s  	  10.190 GB/s  		
+wikipedia_mars/hindi.utf32.txt	   2.586 GB/s  	  11.743 GB/s  	   9.584 GB/s  		
+wikipedia_mars/japanese.utf32.txt	   3.074 GB/s  	  12.098 GB/s  	   9.350 GB/s  		
+wikipedia_mars/korean.utf32.txt	   2.784 GB/s  	  12.616 GB/s  	   9.674 GB/s  		
+wikipedia_mars/persan.utf32.txt	   2.856 GB/s  	  14.210 GB/s  	  10.422 GB/s  		
+wikipedia_mars/portuguese.utf32.txt	   4.691 GB/s  	  13.484 GB/s  	  11.829 GB/s  		
+wikipedia_mars/russian.utf32.txt	   2.595 GB/s  	  13.304 GB/s  	  10.047 GB/s  		
+wikipedia_mars/thai.utf32.txt	   3.024 GB/s  	  12.239 GB/s  	  10.051 GB/s  		
+wikipedia_mars/turkish.utf32.txt	   3.780 GB/s  	  14.782 GB/s  	  10.314 GB/s  		
+wikipedia_mars/vietnamese.utf32.txt	   2.560 GB/s  	   9.403 GB/s  	   7.126 GB/s  
+
+
+convert_utf32_to_utf8_with_errors:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf32.txt	   2.425 GB/s  	  14.017 GB/s  	  11.356 GB/s  		
+lipsum/Chinese-Lipsum.utf32.txt	   1.430 GB/s  	   6.825 GB/s  	   6.174 GB/s  		
+lipsum/Emoji-Lipsum.utf32.txt	   1.552 GB/s  	   1.843 GB/s  	   1.847 GB/s  		
+lipsum/Hebrew-Lipsum.utf32.txt	   2.409 GB/s  	  14.038 GB/s  	  11.348 GB/s  		
+lipsum/Hindi-Lipsum.utf32.txt	   1.348 GB/s  	   6.830 GB/s  	   6.144 GB/s  		
+lipsum/Japanese-Lipsum.utf32.txt	   1.461 GB/s  	   6.820 GB/s  	   6.167 GB/s  		
+lipsum/Korean-Lipsum.utf32.txt	   1.898 GB/s  	   6.829 GB/s  	   6.145 GB/s  		
+lipsum/Latin-Lipsum.utf32.txt	   6.432 GB/s  	  30.319 GB/s  	  19.918 GB/s  		
+lipsum/Russian-Lipsum.utf32.txt	   1.771 GB/s  	  13.594 GB/s  	  11.242 GB/s  		
+wikipedia_mars/arabic.utf32.txt	   2.812 GB/s  	  15.703 GB/s  	  11.480 GB/s  		
+wikipedia_mars/chinese.utf32.txt	   3.285 GB/s  	  11.965 GB/s  	   9.468 GB/s  		
+wikipedia_mars/czech.utf32.txt	   3.729 GB/s  	  15.832 GB/s  	  10.108 GB/s  		
+wikipedia_mars/english.utf32.txt	   6.358 GB/s  	  27.347 GB/s  	  18.686 GB/s  		
+wikipedia_mars/esperanto.utf32.txt	   5.347 GB/s  	  22.508 GB/s  	  15.500 GB/s  		
+wikipedia_mars/french.utf32.txt	   4.793 GB/s  	  13.884 GB/s  	  11.368 GB/s  		
+wikipedia_mars/german.utf32.txt	   5.422 GB/s  	  21.355 GB/s  	  14.820 GB/s  		
+wikipedia_mars/greek.utf32.txt	   3.031 GB/s  	  17.632 GB/s  	  12.240 GB/s  		
+wikipedia_mars/hebrew.utf32.txt	   2.574 GB/s  	  15.703 GB/s  	  11.136 GB/s  		
+wikipedia_mars/hindi.utf32.txt	   2.643 GB/s  	  11.789 GB/s  	   9.445 GB/s  		
+wikipedia_mars/japanese.utf32.txt	   3.144 GB/s  	  12.116 GB/s  	   9.490 GB/s  		
+wikipedia_mars/korean.utf32.txt	   2.834 GB/s  	  12.281 GB/s  	   9.719 GB/s  		
+wikipedia_mars/persan.utf32.txt	   2.949 GB/s  	  15.859 GB/s  	  11.109 GB/s  		
+wikipedia_mars/portuguese.utf32.txt	   5.008 GB/s  	  15.119 GB/s  	  12.488 GB/s  		
+wikipedia_mars/russian.utf32.txt	   2.679 GB/s  	  14.393 GB/s  	  10.678 GB/s  		
+wikipedia_mars/thai.utf32.txt	   3.103 GB/s  	  12.304 GB/s  	   9.816 GB/s  		
+wikipedia_mars/turkish.utf32.txt	   3.973 GB/s  	  16.546 GB/s  	  10.973 GB/s  		
+wikipedia_mars/vietnamese.utf32.txt	   2.629 GB/s  	   9.650 GB/s  	   7.110 GB/s  
+
+
+convert_utf8_to_latin1:
+                                       fallback           lasx              lsx	
+lipsum/Latin-Lipsum.utf8.txt	   2.907 GB/s  	  26.108 GB/s  	  21.051 GB/s  
+
+
+convert_utf8_to_latin1_with_errors:
+                                       fallback           lasx              lsx	
+lipsum/Latin-Lipsum.utf8.txt	   3.984 GB/s  	  26.385 GB/s  	  21.102 GB/s  
+
+
+convert_utf8_to_utf16:
+                                    fallback         lasx            lsx
+lipsum/Arabic-Lipsum.utf8.txt	   0.734 GB/s  	   1.497 GB/s  	   1.590 GB/s  		
+lipsum/Chinese-Lipsum.utf8.txt	   0.782 GB/s  	   2.888 GB/s  	   2.481 GB/s  		
+lipsum/Emoji-Lipsum.utf8.txt	   0.760 GB/s  	   2.224 GB/s  	   1.982 GB/s  		
+lipsum/Hebrew-Lipsum.utf8.txt	   0.745 GB/s  	   1.488 GB/s  	   1.585 GB/s  		
+lipsum/Hindi-Lipsum.utf8.txt	   0.654 GB/s  	   1.736 GB/s  	   1.820 GB/s  		
+lipsum/Japanese-Lipsum.utf8.txt	   0.741 GB/s  	   2.607 GB/s  	   2.354 GB/s  		
+lipsum/Korean-Lipsum.utf8.txt	   0.762 GB/s  	   1.427 GB/s  	   1.485 GB/s  		
+lipsum/Latin-Lipsum.utf8.txt	   2.590 GB/s  	  15.779 GB/s  	  14.418 GB/s  		
+lipsum/Russian-Lipsum.utf8.txt	   0.574 GB/s  	   1.576 GB/s  	   1.626 GB/s  		
+wikipedia_mars/arabic.utf8.txt	   0.826 GB/s  	   1.992 GB/s  	   1.925 GB/s  		
+wikipedia_mars/chinese.utf8.txt	   1.082 GB/s  	   1.835 GB/s  	   1.842 GB/s  		
+wikipedia_mars/czech.utf8.txt	   1.048 GB/s  	   1.971 GB/s  	   1.916 GB/s  		
+wikipedia_mars/english.utf8.txt	   2.378 GB/s  	   7.465 GB/s  	   6.407 GB/s  		
+wikipedia_mars/esperanto.utf8.txt	   2.225 GB/s  	   3.574 GB/s  	   3.467 GB/s  		
+wikipedia_mars/french.utf8.txt	   1.414 GB/s  	   1.959 GB/s  	   1.985 GB/s  		
+wikipedia_mars/german.utf8.txt	   2.031 GB/s  	   3.571 GB/s  	   3.387 GB/s  		
+wikipedia_mars/greek.utf8.txt	   0.893 GB/s  	   2.290 GB/s  	   2.209 GB/s  		
+wikipedia_mars/hebrew.utf8.txt	   0.750 GB/s  	   1.900 GB/s  	   1.877 GB/s  		
+wikipedia_mars/hindi.utf8.txt	   0.880 GB/s  	   1.745 GB/s  	   1.758 GB/s  		
+wikipedia_mars/japanese.utf8.txt	   1.072 GB/s  	   1.970 GB/s  	   1.982 GB/s  		
+wikipedia_mars/korean.utf8.txt	   0.947 GB/s  	   1.851 GB/s  	   1.864 GB/s  		
+wikipedia_mars/persan.utf8.txt	   0.859 GB/s  	   2.091 GB/s  	   2.094 GB/s  		
+wikipedia_mars/portuguese.utf8.txt	   1.629 GB/s  	   2.362 GB/s  	   2.345 GB/s  		
+wikipedia_mars/russian.utf8.txt	   0.779 GB/s  	   1.798 GB/s  	   1.714 GB/s  		
+wikipedia_mars/thai.utf8.txt	   1.054 GB/s  	   2.175 GB/s  	   2.109 GB/s  		
+wikipedia_mars/turkish.utf8.txt	   1.148 GB/s  	   2.249 GB/s  	   2.166 GB/s  		
+wikipedia_mars/vietnamese.utf8.txt	   0.731 GB/s  	   1.200 GB/s  	   1.197 GB/s  
+
+
+convert_utf8_to_utf16_with_errors:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf8.txt	   0.729 GB/s  	   1.460 GB/s  	   1.345 GB/s  		
+lipsum/Chinese-Lipsum.utf8.txt	   0.789 GB/s  	   2.631 GB/s  	   2.285 GB/s  		
+lipsum/Emoji-Lipsum.utf8.txt	   0.779 GB/s  	   2.035 GB/s  	   1.898 GB/s  		
+lipsum/Hebrew-Lipsum.utf8.txt	   0.738 GB/s  	   1.448 GB/s  	   1.337 GB/s  		
+lipsum/Hindi-Lipsum.utf8.txt	   0.649 GB/s  	   1.639 GB/s  	   1.530 GB/s  		
+lipsum/Japanese-Lipsum.utf8.txt	   0.744 GB/s  	   2.441 GB/s  	   2.116 GB/s  		
+lipsum/Korean-Lipsum.utf8.txt	   0.772 GB/s  	   1.378 GB/s  	   1.264 GB/s  		
+lipsum/Latin-Lipsum.utf8.txt	   2.916 GB/s  	  10.437 GB/s  	  13.756 GB/s  		
+lipsum/Russian-Lipsum.utf8.txt	   0.560 GB/s  	   1.530 GB/s  	   1.375 GB/s  		
+wikipedia_mars/arabic.utf8.txt	   0.808 GB/s  	   1.914 GB/s  	   1.666 GB/s  		
+wikipedia_mars/chinese.utf8.txt	   1.065 GB/s  	   1.730 GB/s  	   1.596 GB/s  		
+wikipedia_mars/czech.utf8.txt	   1.024 GB/s  	   1.863 GB/s  	   1.642 GB/s  		
+wikipedia_mars/english.utf8.txt	   2.373 GB/s  	   7.321 GB/s  	   6.096 GB/s  		
+wikipedia_mars/esperanto.utf8.txt	   2.210 GB/s  	   3.390 GB/s  	   2.960 GB/s  		
+wikipedia_mars/french.utf8.txt	   1.376 GB/s  	   1.857 GB/s  	   1.728 GB/s  		
+wikipedia_mars/german.utf8.txt	   1.997 GB/s  	   3.355 GB/s  	   2.874 GB/s  		
+wikipedia_mars/greek.utf8.txt	   0.875 GB/s  	   2.187 GB/s  	   1.853 GB/s  		
+wikipedia_mars/hebrew.utf8.txt	   0.732 GB/s  	   1.818 GB/s  	   1.585 GB/s  		
+wikipedia_mars/hindi.utf8.txt	   0.861 GB/s  	   1.664 GB/s  	   1.535 GB/s  		
+wikipedia_mars/japanese.utf8.txt	   1.057 GB/s  	   1.860 GB/s  	   1.728 GB/s  		
+wikipedia_mars/korean.utf8.txt	   0.921 GB/s  	   1.765 GB/s  	   1.593 GB/s  		
+wikipedia_mars/persan.utf8.txt	   0.841 GB/s  	   2.008 GB/s  	   1.773 GB/s  		
+wikipedia_mars/portuguese.utf8.txt	   1.589 GB/s  	   2.213 GB/s  	   2.015 GB/s  		
+wikipedia_mars/russian.utf8.txt	   0.758 GB/s  	   1.729 GB/s  	   1.486 GB/s  		
+wikipedia_mars/thai.utf8.txt	   1.046 GB/s  	   2.064 GB/s  	   1.887 GB/s  		
+wikipedia_mars/turkish.utf8.txt	   1.116 GB/s  	   2.121 GB/s  	   1.860 GB/s  		
+wikipedia_mars/vietnamese.utf8.txt	   0.718 GB/s  	   1.158 GB/s  	   1.082 GB/s  
+
+
+convert_utf8_to_utf32:
+                                   fallback           lasx              lsx		
+lipsum/Arabic-Lipsum.utf8.txt	   0.725 GB/s  	   1.531 GB/s  	   1.519 GB/s  		
+lipsum/Chinese-Lipsum.utf8.txt	   0.799 GB/s  	   2.859 GB/s  	   2.548 GB/s  		
+lipsum/Emoji-Lipsum.utf8.txt	   0.916 GB/s  	   2.600 GB/s  	   2.085 GB/s  		
+lipsum/Hebrew-Lipsum.utf8.txt	   0.739 GB/s  	   1.513 GB/s  	   1.513 GB/s  		
+lipsum/Hindi-Lipsum.utf8.txt	   0.651 GB/s  	   1.783 GB/s  	   1.756 GB/s  		
+lipsum/Japanese-Lipsum.utf8.txt	   0.747 GB/s  	   2.618 GB/s  	   2.398 GB/s  		
+lipsum/Korean-Lipsum.utf8.txt	   0.759 GB/s  	   1.496 GB/s  	   1.468 GB/s  		
+lipsum/Latin-Lipsum.utf8.txt	   2.418 GB/s  	   7.839 GB/s  	   7.514 GB/s  		
+lipsum/Russian-Lipsum.utf8.txt	   0.555 GB/s  	   1.592 GB/s  	   1.595 GB/s  		
+wikipedia_mars/arabic.utf8.txt	   0.799 GB/s  	   1.907 GB/s  	   1.838 GB/s  		
+wikipedia_mars/chinese.utf8.txt	   1.062 GB/s  	   1.829 GB/s  	   1.772 GB/s  		
+wikipedia_mars/czech.utf8.txt	   1.022 GB/s  	   1.936 GB/s  	   1.850 GB/s  		
+wikipedia_mars/english.utf8.txt	   2.367 GB/s  	   5.064 GB/s  	   4.850 GB/s  		
+wikipedia_mars/esperanto.utf8.txt	   2.153 GB/s  	   3.211 GB/s  	   3.007 GB/s  		
+wikipedia_mars/french.utf8.txt	   1.361 GB/s  	   1.932 GB/s  	   1.863 GB/s  		
+wikipedia_mars/german.utf8.txt	   1.968 GB/s  	   3.246 GB/s  	   3.054 GB/s  		
+wikipedia_mars/greek.utf8.txt	   0.865 GB/s  	   2.218 GB/s  	   2.117 GB/s  		
+wikipedia_mars/hebrew.utf8.txt	   0.724 GB/s  	   1.905 GB/s  	   1.830 GB/s  		
+wikipedia_mars/hindi.utf8.txt	   0.869 GB/s  	   1.766 GB/s  	   1.714 GB/s  		
+wikipedia_mars/japanese.utf8.txt	   1.053 GB/s  	   1.984 GB/s  	   1.885 GB/s  		
+wikipedia_mars/korean.utf8.txt	   0.914 GB/s  	   1.865 GB/s  	   1.790 GB/s  		
+wikipedia_mars/persan.utf8.txt	   0.825 GB/s  	   2.076 GB/s  	   1.979 GB/s  		
+wikipedia_mars/portuguese.utf8.txt	   1.564 GB/s  	   2.303 GB/s  	   2.211 GB/s  		
+wikipedia_mars/russian.utf8.txt	   0.753 GB/s  	   1.699 GB/s  	   1.652 GB/s  		
+wikipedia_mars/thai.utf8.txt	   1.048 GB/s  	   2.192 GB/s  	   2.062 GB/s  		
+wikipedia_mars/turkish.utf8.txt	   1.122 GB/s  	   2.168 GB/s  	   2.070 GB/s  		
+wikipedia_mars/vietnamese.utf8.txt	   0.725 GB/s  	   1.197 GB/s  	   1.177 GB/s  
+
+
+convert_utf8_to_utf32_with_errors:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf8.txt	   0.730 GB/s  	   1.499 GB/s  	   1.327 GB/s  		
+lipsum/Chinese-Lipsum.utf8.txt	   0.804 GB/s  	   2.683 GB/s  	   2.294 GB/s  		
+lipsum/Emoji-Lipsum.utf8.txt	   0.911 GB/s  	   2.321 GB/s  	   1.891 GB/s  		
+lipsum/Hebrew-Lipsum.utf8.txt	   0.737 GB/s  	   1.492 GB/s  	   1.318 GB/s  		
+lipsum/Hindi-Lipsum.utf8.txt	   0.648 GB/s  	   1.651 GB/s  	   1.497 GB/s  		
+lipsum/Japanese-Lipsum.utf8.txt	   0.744 GB/s  	   2.487 GB/s  	   2.120 GB/s  		
+lipsum/Korean-Lipsum.utf8.txt	   0.759 GB/s  	   1.408 GB/s  	   1.281 GB/s  		
+lipsum/Latin-Lipsum.utf8.txt	   2.455 GB/s  	   5.866 GB/s  	   7.620 GB/s  		
+lipsum/Russian-Lipsum.utf8.txt	   0.562 GB/s  	   1.562 GB/s  	   1.387 GB/s  		
+wikipedia_mars/arabic.utf8.txt	   0.805 GB/s  	   1.787 GB/s  	   1.620 GB/s  		
+wikipedia_mars/chinese.utf8.txt	   1.065 GB/s  	   1.704 GB/s  	   1.564 GB/s  		
+wikipedia_mars/czech.utf8.txt	   0.985 GB/s  	   1.800 GB/s  	   1.614 GB/s  		
+wikipedia_mars/english.utf8.txt	   2.371 GB/s  	   4.994 GB/s  	   4.629 GB/s  		
+wikipedia_mars/esperanto.utf8.txt	   2.162 GB/s  	   3.071 GB/s  	   2.697 GB/s  		
+wikipedia_mars/french.utf8.txt	   1.342 GB/s  	   1.820 GB/s  	   1.664 GB/s  		
+wikipedia_mars/german.utf8.txt	   1.964 GB/s  	   3.044 GB/s  	   2.711 GB/s  		
+wikipedia_mars/greek.utf8.txt	   0.870 GB/s  	   2.054 GB/s  	   1.826 GB/s  		
+wikipedia_mars/hebrew.utf8.txt	   0.728 GB/s  	   1.775 GB/s  	   1.584 GB/s  		
+wikipedia_mars/hindi.utf8.txt	   0.865 GB/s  	   1.647 GB/s  	   1.524 GB/s  		
+wikipedia_mars/japanese.utf8.txt	   1.050 GB/s  	   1.839 GB/s  	   1.672 GB/s  		
+wikipedia_mars/korean.utf8.txt	   0.918 GB/s  	   1.746 GB/s  	   1.570 GB/s  		
+wikipedia_mars/persan.utf8.txt	   0.829 GB/s  	   1.949 GB/s  	   1.744 GB/s  		
+wikipedia_mars/portuguese.utf8.txt	   1.528 GB/s  	   2.142 GB/s  	   1.949 GB/s  		
+wikipedia_mars/russian.utf8.txt	   0.756 GB/s  	   1.581 GB/s  	   1.459 GB/s  		
+wikipedia_mars/thai.utf8.txt	   1.046 GB/s  	   2.038 GB/s  	   1.850 GB/s  		
+wikipedia_mars/turkish.utf8.txt	   1.084 GB/s  	   2.023 GB/s  	   1.809 GB/s  		
+wikipedia_mars/vietnamese.utf8.txt	   0.710 GB/s  	   1.135 GB/s  	   1.067 GB/s  
+
+
+convert_valid_utf16_to_latin1:
+                                   fallback           lasx              lsx	
+lipsum/Latin-Lipsum.utf16.txt	  23.000 GB/s  	  26.506 GB/s  	  26.506 GB/s  
+
+
+convert_valid_utf16_to_utf32:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf16.txt	   1.777 GB/s  	  15.383 GB/s  	  13.246 GB/s  		
+lipsum/Chinese-Lipsum.utf16.txt	   1.782 GB/s  	  14.920 GB/s  	  13.199 GB/s  		
+lipsum/Emoji-Lipsum.utf16.txt	   2.219 GB/s  	   1.858 GB/s  	   1.863 GB/s  		
+lipsum/Hebrew-Lipsum.utf16.txt	   1.782 GB/s  	  15.321 GB/s  	  13.229 GB/s  		
+lipsum/Hindi-Lipsum.utf16.txt	   1.783 GB/s  	  15.276 GB/s  	  13.212 GB/s  		
+lipsum/Japanese-Lipsum.utf16.txt	   1.782 GB/s  	  15.228 GB/s  	  13.188 GB/s  		
+lipsum/Korean-Lipsum.utf16.txt	   1.782 GB/s  	  14.874 GB/s  	  13.209 GB/s  		
+lipsum/Latin-Lipsum.utf16.txt	   1.783 GB/s  	  13.304 GB/s  	  12.492 GB/s  		
+lipsum/Russian-Lipsum.utf16.txt	   1.789 GB/s  	  14.039 GB/s  	  12.899 GB/s  		
+wikipedia_mars/arabic.utf16.txt	   1.784 GB/s  	  12.625 GB/s  	  11.882 GB/s  		
+wikipedia_mars/chinese.utf16.txt	   1.783 GB/s  	  13.206 GB/s  	  12.202 GB/s  		
+wikipedia_mars/czech.utf16.txt	   1.784 GB/s  	  13.034 GB/s  	  12.184 GB/s  		
+wikipedia_mars/english.utf16.txt	   1.784 GB/s  	  12.629 GB/s  	  11.900 GB/s  		
+wikipedia_mars/esperanto.utf16.txt	   1.783 GB/s  	  13.493 GB/s  	  12.454 GB/s  		
+wikipedia_mars/french.utf16.txt	   1.784 GB/s  	  12.576 GB/s  	  11.867 GB/s  		
+wikipedia_mars/german.utf16.txt	   1.784 GB/s  	  12.865 GB/s  	  12.056 GB/s  		
+wikipedia_mars/greek.utf16.txt	   1.784 GB/s  	  13.077 GB/s  	  12.170 GB/s  		
+wikipedia_mars/hebrew.utf16.txt	   1.784 GB/s  	  13.085 GB/s  	  12.176 GB/s  		
+wikipedia_mars/hindi.utf16.txt	   1.784 GB/s  	  12.736 GB/s  	  11.958 GB/s  		
+wikipedia_mars/japanese.utf16.txt	   1.783 GB/s  	  13.262 GB/s  	  12.282 GB/s  		
+wikipedia_mars/korean.utf16.txt	   1.783 GB/s  	  13.797 GB/s  	  12.638 GB/s  		
+wikipedia_mars/persan.utf16.txt	   1.783 GB/s  	  13.223 GB/s  	  12.249 GB/s  		
+wikipedia_mars/portuguese.utf16.txt	   1.784 GB/s  	  12.120 GB/s  	  11.405 GB/s  		
+wikipedia_mars/russian.utf16.txt	   1.784 GB/s  	  12.695 GB/s  	  11.928 GB/s  		
+wikipedia_mars/thai.utf16.txt	   1.784 GB/s  	  12.625 GB/s  	  11.891 GB/s  		
+wikipedia_mars/turkish.utf16.txt	   1.784 GB/s  	  12.936 GB/s  	  12.101 GB/s  		
+wikipedia_mars/vietnamese.utf16.txt	   1.784 GB/s  	  12.753 GB/s  	  11.964 GB/s  
+
+
+convert_valid_utf16_to_utf8:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf16.txt	   0.969 GB/s  	   3.307 GB/s  	   3.352 GB/s  		
+lipsum/Chinese-Lipsum.utf16.txt	   0.796 GB/s  	   2.781 GB/s  	   2.468 GB/s  		
+lipsum/Emoji-Lipsum.utf16.txt	   1.032 GB/s  	   0.888 GB/s  	   1.095 GB/s  		
+lipsum/Hebrew-Lipsum.utf16.txt	   0.969 GB/s  	   3.280 GB/s  	   3.355 GB/s  		
+lipsum/Hindi-Lipsum.utf16.txt	   0.669 GB/s  	   2.792 GB/s  	   2.440 GB/s  		
+lipsum/Japanese-Lipsum.utf16.txt	   0.764 GB/s  	   2.784 GB/s  	   2.459 GB/s  		
+lipsum/Korean-Lipsum.utf16.txt	   0.854 GB/s  	   2.793 GB/s  	   2.438 GB/s  		
+lipsum/Latin-Lipsum.utf16.txt	   4.997 GB/s  	  25.914 GB/s  	  24.456 GB/s  		
+lipsum/Russian-Lipsum.utf16.txt	   0.742 GB/s  	   3.333 GB/s  	   3.365 GB/s  		
+wikipedia_mars/arabic.utf16.txt	   1.454 GB/s  	   6.291 GB/s  	   6.520 GB/s  		
+wikipedia_mars/chinese.utf16.txt	   1.872 GB/s  	   5.497 GB/s  	   5.691 GB/s  		
+wikipedia_mars/czech.utf16.txt	   1.923 GB/s  	   6.748 GB/s  	   7.257 GB/s  		
+wikipedia_mars/english.utf16.txt	   4.614 GB/s  	  15.765 GB/s  	  16.617 GB/s  		
+wikipedia_mars/esperanto.utf16.txt	   3.622 GB/s  	  11.330 GB/s  	  13.155 GB/s  		
+wikipedia_mars/french.utf16.txt	   2.817 GB/s  	   7.178 GB/s  	   8.062 GB/s  		
+wikipedia_mars/german.utf16.txt	   3.589 GB/s  	  11.387 GB/s  	  13.568 GB/s  		
+wikipedia_mars/greek.utf16.txt	   1.549 GB/s  	   6.687 GB/s  	   7.175 GB/s  		
+wikipedia_mars/hebrew.utf16.txt	   1.292 GB/s  	   5.817 GB/s  	   6.363 GB/s  		
+wikipedia_mars/hindi.utf16.txt	   1.444 GB/s  	   5.353 GB/s  	   5.108 GB/s  		
+wikipedia_mars/japanese.utf16.txt	   1.808 GB/s  	   5.404 GB/s  	   5.539 GB/s  		
+wikipedia_mars/korean.utf16.txt	   1.603 GB/s  	   5.354 GB/s  	   5.524 GB/s  		
+wikipedia_mars/persan.utf16.txt	   1.518 GB/s  	   6.331 GB/s  	   7.045 GB/s  		
+wikipedia_mars/portuguese.utf16.txt	   3.078 GB/s  	   9.422 GB/s  	  11.328 GB/s  		
+wikipedia_mars/russian.utf16.txt	   1.329 GB/s  	   5.798 GB/s  	   6.005 GB/s  		
+wikipedia_mars/thai.utf16.txt	   1.791 GB/s  	   5.682 GB/s  	   5.385 GB/s  		
+wikipedia_mars/turkish.utf16.txt	   2.094 GB/s  	   7.650 GB/s  	   7.811 GB/s  		
+wikipedia_mars/vietnamese.utf16.txt	   1.313 GB/s  	   4.540 GB/s  	   3.930 GB/s  
+
+
+convert_valid_utf32_to_latin1:
+                                   fallback           lasx              lsx	
+lipsum/Latin-Lipsum.utf32.txt	   7.929 GB/s  	  33.152 GB/s  	  20.207 GB/s  
+
+
+convert_valid_utf32_to_utf16:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf32.txt	   4.953 GB/s  	  26.415 GB/s  	  19.941 GB/s  		
+lipsum/Chinese-Lipsum.utf32.txt	   4.989 GB/s  	  26.249 GB/s  	  19.881 GB/s  		
+lipsum/Emoji-Lipsum.utf32.txt	   2.974 GB/s  	   2.850 GB/s  	   2.141 GB/s  		
+lipsum/Hebrew-Lipsum.utf32.txt	   4.984 GB/s  	  26.457 GB/s  	  19.949 GB/s  		
+lipsum/Hindi-Lipsum.utf32.txt	   4.989 GB/s  	  26.584 GB/s  	  19.918 GB/s  		
+lipsum/Japanese-Lipsum.utf32.txt	   4.986 GB/s  	  26.226 GB/s  	  19.893 GB/s  		
+lipsum/Korean-Lipsum.utf32.txt	   4.987 GB/s  	  26.547 GB/s  	  19.922 GB/s  		
+lipsum/Latin-Lipsum.utf32.txt	   4.989 GB/s  	  25.894 GB/s  	  19.940 GB/s  		
+lipsum/Russian-Lipsum.utf32.txt	   4.947 GB/s  	  25.913 GB/s  	  19.907 GB/s  		
+wikipedia_mars/arabic.utf32.txt	   4.991 GB/s  	  25.639 GB/s  	  19.986 GB/s  		
+wikipedia_mars/chinese.utf32.txt	   4.922 GB/s  	  25.791 GB/s  	  19.965 GB/s  		
+wikipedia_mars/czech.utf32.txt	   4.916 GB/s  	  25.788 GB/s  	  19.963 GB/s  		
+wikipedia_mars/english.utf32.txt	   4.969 GB/s  	  25.650 GB/s  	  19.985 GB/s  		
+wikipedia_mars/esperanto.utf32.txt	   4.917 GB/s  	  25.785 GB/s  	  19.935 GB/s  		
+wikipedia_mars/french.utf32.txt	   4.978 GB/s  	  25.645 GB/s  	  19.987 GB/s  		
+wikipedia_mars/german.utf32.txt	   4.964 GB/s  	  25.706 GB/s  	  19.972 GB/s  		
+wikipedia_mars/greek.utf32.txt	   4.919 GB/s  	  25.766 GB/s  	  19.958 GB/s  		
+wikipedia_mars/hebrew.utf32.txt	   4.919 GB/s  	  25.777 GB/s  	  19.959 GB/s  		
+wikipedia_mars/hindi.utf32.txt	   4.984 GB/s  	  25.688 GB/s  	  19.979 GB/s  		
+wikipedia_mars/japanese.utf32.txt	   4.921 GB/s  	  25.804 GB/s  	  19.957 GB/s  		
+wikipedia_mars/korean.utf32.txt	   4.914 GB/s  	  25.789 GB/s  	  19.923 GB/s  		
+wikipedia_mars/persan.utf32.txt	   4.920 GB/s  	  25.777 GB/s  	  19.951 GB/s  		
+wikipedia_mars/portuguese.utf32.txt	   4.893 GB/s  	  25.661 GB/s  	  19.910 GB/s  		
+wikipedia_mars/russian.utf32.txt	   4.952 GB/s  	  25.671 GB/s  	  19.983 GB/s  		
+wikipedia_mars/thai.utf32.txt	   4.976 GB/s  	  25.658 GB/s  	  19.986 GB/s  		
+wikipedia_mars/turkish.utf32.txt	   4.935 GB/s  	  25.711 GB/s  	  19.972 GB/s  		
+wikipedia_mars/vietnamese.utf32.txt	   4.946 GB/s  	  25.692 GB/s  	  19.980 GB/s  
+
+
+convert_valid_utf32_to_utf8:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf32.txt	   2.520 GB/s  	  14.459 GB/s  	   9.965 GB/s  		
+lipsum/Chinese-Lipsum.utf32.txt	   1.935 GB/s  	   7.088 GB/s  	   6.689 GB/s  		
+lipsum/Emoji-Lipsum.utf32.txt	   1.665 GB/s  	   1.405 GB/s  	   1.843 GB/s  		
+lipsum/Hebrew-Lipsum.utf32.txt	   2.510 GB/s  	  14.431 GB/s  	   9.961 GB/s  		
+lipsum/Hindi-Lipsum.utf32.txt	   1.561 GB/s  	   7.217 GB/s  	   6.633 GB/s  		
+lipsum/Japanese-Lipsum.utf32.txt	   1.842 GB/s  	   7.203 GB/s  	   6.622 GB/s  		
+lipsum/Korean-Lipsum.utf32.txt	   2.123 GB/s  	   7.115 GB/s  	   6.620 GB/s  		
+lipsum/Latin-Lipsum.utf32.txt	   6.660 GB/s  	  30.266 GB/s  	  19.906 GB/s  		
+lipsum/Russian-Lipsum.utf32.txt	   1.878 GB/s  	  14.124 GB/s  	   9.941 GB/s  		
+wikipedia_mars/arabic.utf32.txt	   2.922 GB/s  	  14.596 GB/s  	  10.825 GB/s  		
+wikipedia_mars/chinese.utf32.txt	   3.499 GB/s  	  12.015 GB/s  	   9.320 GB/s  		
+wikipedia_mars/czech.utf32.txt	   3.708 GB/s  	  13.817 GB/s  	   9.275 GB/s  		
+wikipedia_mars/english.utf32.txt	   6.366 GB/s  	  26.840 GB/s  	  18.440 GB/s  		
+wikipedia_mars/esperanto.utf32.txt	   5.366 GB/s  	  20.271 GB/s  	  14.442 GB/s  		
+wikipedia_mars/french.utf32.txt	   4.818 GB/s  	  12.628 GB/s  	  10.958 GB/s  		
+wikipedia_mars/german.utf32.txt	   5.431 GB/s  	  18.666 GB/s  	  14.059 GB/s  		
+wikipedia_mars/greek.utf32.txt	   3.131 GB/s  	  16.054 GB/s  	  11.200 GB/s  		
+wikipedia_mars/hebrew.utf32.txt	   2.655 GB/s  	  14.320 GB/s  	  10.215 GB/s  		
+wikipedia_mars/hindi.utf32.txt	   2.855 GB/s  	  11.769 GB/s  	   9.586 GB/s  		
+wikipedia_mars/japanese.utf32.txt	   3.407 GB/s  	  12.113 GB/s  	   9.374 GB/s  		
+wikipedia_mars/korean.utf32.txt	   3.004 GB/s  	  12.567 GB/s  	   9.639 GB/s  		
+wikipedia_mars/persan.utf32.txt	   3.042 GB/s  	  14.190 GB/s  	  10.391 GB/s  		
+wikipedia_mars/portuguese.utf32.txt	   5.037 GB/s  	  13.545 GB/s  	  11.869 GB/s  		
+wikipedia_mars/russian.utf32.txt	   2.770 GB/s  	  13.287 GB/s  	  10.050 GB/s  		
+wikipedia_mars/thai.utf32.txt	   3.483 GB/s  	  12.241 GB/s  	  10.035 GB/s  		
+wikipedia_mars/turkish.utf32.txt	   3.942 GB/s  	  14.776 GB/s  	  10.312 GB/s  		
+wikipedia_mars/vietnamese.utf32.txt	   2.655 GB/s  	   9.405 GB/s  	   7.120 GB/s  
+
+
+convert_valid_utf8_to_latin1:
+                                   fallback           lasx              lsx	
+lipsum/Latin-Lipsum.utf8.txt	   2.906 GB/s  	  26.345 GB/s  	  21.102 GB/s  
+
+
+convert_valid_utf8_to_utf16:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf8.txt	   0.837 GB/s  	   1.688 GB/s  	   1.788 GB/s  		
+lipsum/Chinese-Lipsum.utf8.txt	   1.250 GB/s  	   4.322 GB/s  	   3.779 GB/s  		
+lipsum/Emoji-Lipsum.utf8.txt	   1.111 GB/s  	   3.378 GB/s  	   2.829 GB/s  		
+lipsum/Hebrew-Lipsum.utf8.txt	   0.840 GB/s  	   1.689 GB/s  	   1.779 GB/s  		
+lipsum/Hindi-Lipsum.utf8.txt	   0.775 GB/s  	   2.014 GB/s  	   2.174 GB/s  		
+lipsum/Japanese-Lipsum.utf8.txt	   1.092 GB/s  	   3.790 GB/s  	   3.597 GB/s  		
+lipsum/Korean-Lipsum.utf8.txt	   0.587 GB/s  	   1.609 GB/s  	   1.663 GB/s  		
+lipsum/Latin-Lipsum.utf8.txt	   2.587 GB/s  	  15.894 GB/s  	  14.442 GB/s  		
+lipsum/Russian-Lipsum.utf8.txt	   0.615 GB/s  	   1.788 GB/s  	   1.824 GB/s  		
+wikipedia_mars/arabic.utf8.txt	   0.899 GB/s  	   2.255 GB/s  	   2.118 GB/s  		
+wikipedia_mars/chinese.utf8.txt	   1.179 GB/s  	   2.074 GB/s  	   2.008 GB/s  		
+wikipedia_mars/czech.utf8.txt	   0.993 GB/s  	   2.245 GB/s  	   2.119 GB/s  		
+wikipedia_mars/english.utf8.txt	   2.389 GB/s  	   7.993 GB/s  	   7.060 GB/s  		
+wikipedia_mars/esperanto.utf8.txt	   2.248 GB/s  	   4.195 GB/s  	   4.009 GB/s  		
+wikipedia_mars/french.utf8.txt	   1.523 GB/s  	   2.211 GB/s  	   2.166 GB/s  		
+wikipedia_mars/german.utf8.txt	   2.035 GB/s  	   4.076 GB/s  	   3.781 GB/s  		
+wikipedia_mars/greek.utf8.txt	   0.977 GB/s  	   2.629 GB/s  	   2.455 GB/s  		
+wikipedia_mars/hebrew.utf8.txt	   0.806 GB/s  	   2.182 GB/s  	   2.105 GB/s  		
+wikipedia_mars/hindi.utf8.txt	   0.984 GB/s  	   1.959 GB/s  	   1.889 GB/s  		
+wikipedia_mars/japanese.utf8.txt	   1.186 GB/s  	   2.273 GB/s  	   2.213 GB/s  		
+wikipedia_mars/korean.utf8.txt	   0.935 GB/s  	   2.126 GB/s  	   2.148 GB/s  		
+wikipedia_mars/persan.utf8.txt	   0.914 GB/s  	   2.395 GB/s  	   2.336 GB/s  		
+wikipedia_mars/portuguese.utf8.txt	   1.697 GB/s  	   2.663 GB/s  	   2.592 GB/s  		
+wikipedia_mars/russian.utf8.txt	   0.849 GB/s  	   2.040 GB/s  	   1.872 GB/s  		
+wikipedia_mars/thai.utf8.txt	   1.307 GB/s  	   2.507 GB/s  	   2.392 GB/s  		
+wikipedia_mars/turkish.utf8.txt	   1.100 GB/s  	   2.528 GB/s  	   2.381 GB/s  		
+wikipedia_mars/vietnamese.utf8.txt	   0.747 GB/s  	   1.298 GB/s  	   1.264 GB/s  
+
+
+convert_valid_utf8_to_utf32:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf8.txt	   0.850 GB/s  	   1.748 GB/s  	   1.791 GB/s  		
+lipsum/Chinese-Lipsum.utf8.txt	   1.130 GB/s  	   4.373 GB/s  	   4.327 GB/s  		
+lipsum/Emoji-Lipsum.utf8.txt	   1.427 GB/s  	   2.828 GB/s  	   2.769 GB/s  		
+lipsum/Hebrew-Lipsum.utf8.txt	   0.851 GB/s  	   1.742 GB/s  	   1.781 GB/s  		
+lipsum/Hindi-Lipsum.utf8.txt	   0.868 GB/s  	   1.833 GB/s  	   2.062 GB/s  		
+lipsum/Japanese-Lipsum.utf8.txt	   1.042 GB/s  	   3.757 GB/s  	   3.746 GB/s  		
+lipsum/Korean-Lipsum.utf8.txt	   1.106 GB/s  	   1.598 GB/s  	   1.660 GB/s  		
+lipsum/Latin-Lipsum.utf8.txt	   2.455 GB/s  	   7.769 GB/s  	   7.355 GB/s  		
+lipsum/Russian-Lipsum.utf8.txt	   0.638 GB/s  	   1.888 GB/s  	   1.893 GB/s  		
+wikipedia_mars/arabic.utf8.txt	   0.907 GB/s  	   2.100 GB/s  	   2.073 GB/s  		
+wikipedia_mars/chinese.utf8.txt	   1.327 GB/s  	   1.944 GB/s  	   2.035 GB/s  		
+wikipedia_mars/czech.utf8.txt	   1.080 GB/s  	   2.131 GB/s  	   2.146 GB/s  		
+wikipedia_mars/english.utf8.txt	   2.406 GB/s  	   5.277 GB/s  	   4.998 GB/s  		
+wikipedia_mars/esperanto.utf8.txt	   2.267 GB/s  	   3.610 GB/s  	   3.459 GB/s  		
+wikipedia_mars/french.utf8.txt	   1.567 GB/s  	   2.110 GB/s  	   2.071 GB/s  		
+wikipedia_mars/german.utf8.txt	   2.144 GB/s  	   3.563 GB/s  	   3.509 GB/s  		
+wikipedia_mars/greek.utf8.txt	   0.993 GB/s  	   2.508 GB/s  	   2.502 GB/s  		
+wikipedia_mars/hebrew.utf8.txt	   0.824 GB/s  	   2.144 GB/s  	   2.160 GB/s  		
+wikipedia_mars/hindi.utf8.txt	   1.062 GB/s  	   1.824 GB/s  	   1.904 GB/s  		
+wikipedia_mars/japanese.utf8.txt	   1.336 GB/s  	   2.126 GB/s  	   2.225 GB/s  		
+wikipedia_mars/korean.utf8.txt	   1.153 GB/s  	   2.006 GB/s  	   2.084 GB/s  		
+wikipedia_mars/persan.utf8.txt	   0.938 GB/s  	   2.322 GB/s  	   2.321 GB/s  		
+wikipedia_mars/portuguese.utf8.txt	   1.791 GB/s  	   2.493 GB/s  	   2.453 GB/s  		
+wikipedia_mars/russian.utf8.txt	   0.861 GB/s  	   1.856 GB/s  	   1.844 GB/s  		
+wikipedia_mars/thai.utf8.txt	   1.343 GB/s  	   2.409 GB/s  	   2.408 GB/s  		
+wikipedia_mars/turkish.utf8.txt	   1.157 GB/s  	   2.360 GB/s  	   2.349 GB/s  		
+wikipedia_mars/vietnamese.utf8.txt	   0.781 GB/s  	   1.250 GB/s  	   1.268 GB/s  
+
+
+count_utf16:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf16.txt	  14.907 GB/s  	  21.237 GB/s  	  20.708 GB/s  		
+lipsum/Chinese-Lipsum.utf16.txt	  14.943 GB/s  	  22.185 GB/s  	  21.089 GB/s  		
+lipsum/Emoji-Lipsum.utf16.txt	  14.896 GB/s  	  21.177 GB/s  	  20.973 GB/s  		
+lipsum/Hebrew-Lipsum.utf16.txt	  14.893 GB/s  	  21.595 GB/s  	  20.900 GB/s  		
+lipsum/Hindi-Lipsum.utf16.txt	  14.894 GB/s  	  21.735 GB/s  	  20.970 GB/s  		
+lipsum/Japanese-Lipsum.utf16.txt	  14.912 GB/s  	  21.744 GB/s  	  21.059 GB/s  		
+lipsum/Korean-Lipsum.utf16.txt	  14.935 GB/s  	  21.207 GB/s  	  21.043 GB/s  		
+lipsum/Latin-Lipsum.utf16.txt	  13.521 GB/s  	  20.529 GB/s  	  20.950 GB/s  		
+lipsum/Russian-Lipsum.utf16.txt	  14.477 GB/s  	  20.524 GB/s  	  20.970 GB/s  		
+wikipedia_mars/arabic.utf16.txt	  13.364 GB/s  	  20.739 GB/s  	  20.805 GB/s  		
+wikipedia_mars/chinese.utf16.txt	  13.347 GB/s  	  20.418 GB/s  	  20.980 GB/s  		
+wikipedia_mars/czech.utf16.txt	  13.349 GB/s  	  20.489 GB/s  	  20.936 GB/s  		
+wikipedia_mars/english.utf16.txt	  13.367 GB/s  	  20.734 GB/s  	  20.800 GB/s  		
+wikipedia_mars/esperanto.utf16.txt	  13.407 GB/s  	  20.544 GB/s  	  21.005 GB/s  		
+wikipedia_mars/french.utf16.txt	  13.368 GB/s  	  20.723 GB/s  	  20.807 GB/s  		
+wikipedia_mars/german.utf16.txt	  13.348 GB/s  	  20.776 GB/s  	  20.744 GB/s  		
+wikipedia_mars/greek.utf16.txt	  13.352 GB/s  	  20.516 GB/s  	  20.922 GB/s  		
+wikipedia_mars/hebrew.utf16.txt	  13.347 GB/s  	  20.526 GB/s  	  20.922 GB/s  		
+wikipedia_mars/hindi.utf16.txt	  13.367 GB/s  	  20.754 GB/s  	  20.778 GB/s  		
+wikipedia_mars/japanese.utf16.txt	  13.359 GB/s  	  20.411 GB/s  	  20.932 GB/s  		
+wikipedia_mars/korean.utf16.txt	  13.429 GB/s  	  20.454 GB/s  	  20.984 GB/s  		
+wikipedia_mars/persan.utf16.txt	  13.343 GB/s  	  20.475 GB/s  	  20.922 GB/s  		
+wikipedia_mars/portuguese.utf16.txt	  13.363 GB/s  	  20.784 GB/s  	  20.776 GB/s  		
+wikipedia_mars/russian.utf16.txt	  13.369 GB/s  	  20.761 GB/s  	  20.803 GB/s  		
+wikipedia_mars/thai.utf16.txt	  13.369 GB/s  	  20.794 GB/s  	  20.810 GB/s  		
+wikipedia_mars/turkish.utf16.txt	  13.356 GB/s  	  20.801 GB/s  	  20.755 GB/s  		
+wikipedia_mars/vietnamese.utf16.txt	  13.372 GB/s  	  20.766 GB/s  	  20.789 GB/s  
+
+
+count_utf8:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf8.txt	   7.197 GB/s  	  27.503 GB/s  	  24.980 GB/s  		
+lipsum/Chinese-Lipsum.utf8.txt	   7.178 GB/s  	  28.919 GB/s  	  27.550 GB/s  		
+lipsum/Emoji-Lipsum.utf8.txt	   7.179 GB/s  	  29.325 GB/s  	  28.373 GB/s  		
+lipsum/Hebrew-Lipsum.utf8.txt	   7.173 GB/s  	  29.229 GB/s  	  28.116 GB/s  		
+lipsum/Hindi-Lipsum.utf8.txt	   7.195 GB/s  	  27.118 GB/s  	  24.964 GB/s  		
+lipsum/Japanese-Lipsum.utf8.txt	   7.183 GB/s  	  29.165 GB/s  	  27.962 GB/s  		
+lipsum/Korean-Lipsum.utf8.txt	   7.177 GB/s  	  29.275 GB/s  	  28.220 GB/s  		
+lipsum/Latin-Lipsum.utf8.txt	   7.197 GB/s  	  26.792 GB/s  	  24.805 GB/s  		
+lipsum/Russian-Lipsum.utf8.txt	   7.201 GB/s  	  26.933 GB/s  	  25.246 GB/s  		
+wikipedia_mars/arabic.utf8.txt	   7.156 GB/s  	  29.349 GB/s  	  27.238 GB/s  		
+wikipedia_mars/chinese.utf8.txt	   7.207 GB/s  	  27.767 GB/s  	  26.587 GB/s  		
+wikipedia_mars/czech.utf8.txt	   7.207 GB/s  	  27.818 GB/s  	  25.973 GB/s  		
+wikipedia_mars/english.utf8.txt	   7.154 GB/s  	  29.329 GB/s  	  26.592 GB/s  		
+wikipedia_mars/esperanto.utf8.txt	   7.199 GB/s  	  27.049 GB/s  	  25.134 GB/s  		
+wikipedia_mars/french.utf8.txt	   7.154 GB/s  	  29.286 GB/s  	  26.538 GB/s  		
+wikipedia_mars/german.utf8.txt	   7.205 GB/s  	  28.228 GB/s  	  27.112 GB/s  		
+wikipedia_mars/greek.utf8.txt	   7.205 GB/s  	  28.203 GB/s  	  26.946 GB/s  		
+wikipedia_mars/hebrew.utf8.txt	   7.204 GB/s  	  28.165 GB/s  	  26.552 GB/s  		
+wikipedia_mars/hindi.utf8.txt	   7.154 GB/s  	  29.290 GB/s  	  26.440 GB/s  		
+wikipedia_mars/japanese.utf8.txt	   7.202 GB/s  	  28.191 GB/s  	  27.211 GB/s  		
+wikipedia_mars/korean.utf8.txt	   7.201 GB/s  	  27.373 GB/s  	  25.517 GB/s  		
+wikipedia_mars/persan.utf8.txt	   7.202 GB/s  	  28.146 GB/s  	  26.979 GB/s  		
+wikipedia_mars/portuguese.utf8.txt	   7.185 GB/s  	  28.493 GB/s  	  27.065 GB/s  		
+wikipedia_mars/russian.utf8.txt	   7.153 GB/s  	  29.287 GB/s  	  26.765 GB/s  		
+wikipedia_mars/thai.utf8.txt	   7.157 GB/s  	  29.342 GB/s  	  26.382 GB/s  		
+wikipedia_mars/turkish.utf8.txt	   7.193 GB/s  	  28.231 GB/s  	  27.399 GB/s  		
+wikipedia_mars/vietnamese.utf8.txt	   7.176 GB/s  	  28.638 GB/s  	  26.854 GB/s  
+
+
+utf8_length_from_latin1:
+                                   fallback           lasx              lsx	
+lipsum/Latin-Lipsum.utf8.txt	  24.559 GB/s  	  19.849 GB/s  	  19.849 GB/s  
+
+
+validate_utf16:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf16.txt	   2.499 GB/s  	  28.965 GB/s  	  26.378 GB/s  		
+lipsum/Chinese-Lipsum.utf16.txt	   2.499 GB/s  	  33.337 GB/s  	  29.697 GB/s  		
+lipsum/Emoji-Lipsum.utf16.txt	   1.999 GB/s  	  14.437 GB/s  	  11.109 GB/s  		
+lipsum/Hebrew-Lipsum.utf16.txt	   2.498 GB/s  	  29.726 GB/s  	  26.936 GB/s  		
+lipsum/Hindi-Lipsum.utf16.txt	   2.498 GB/s  	  31.658 GB/s  	  28.554 GB/s  		
+lipsum/Japanese-Lipsum.utf16.txt	   2.499 GB/s  	  33.039 GB/s  	  29.403 GB/s  		
+lipsum/Korean-Lipsum.utf16.txt	   2.497 GB/s  	  32.853 GB/s  	  29.110 GB/s  		
+lipsum/Latin-Lipsum.utf16.txt	   2.499 GB/s  	  28.000 GB/s  	  27.600 GB/s  		
+lipsum/Russian-Lipsum.utf16.txt	   2.499 GB/s  	  27.875 GB/s  	  26.781 GB/s  		
+wikipedia_mars/arabic.utf16.txt	   2.475 GB/s  	  30.174 GB/s  	  28.361 GB/s  		
+wikipedia_mars/chinese.utf16.txt	   2.445 GB/s  	  30.024 GB/s  	  27.524 GB/s  		
+wikipedia_mars/czech.utf16.txt	   2.448 GB/s  	  30.028 GB/s  	  27.554 GB/s  		
+wikipedia_mars/english.utf16.txt	   2.456 GB/s  	  30.145 GB/s  	  28.462 GB/s  		
+wikipedia_mars/esperanto.utf16.txt	   2.499 GB/s  	  29.059 GB/s  	  27.582 GB/s  		
+wikipedia_mars/french.utf16.txt	   2.483 GB/s  	  30.199 GB/s  	  28.321 GB/s  		
+wikipedia_mars/german.utf16.txt	   2.427 GB/s  	  30.100 GB/s  	  28.440 GB/s  		
+wikipedia_mars/greek.utf16.txt	   2.443 GB/s  	  30.010 GB/s  	  27.447 GB/s  		
+wikipedia_mars/hebrew.utf16.txt	   2.474 GB/s  	  30.052 GB/s  	  27.510 GB/s  		
+wikipedia_mars/hindi.utf16.txt	   2.331 GB/s  	  30.188 GB/s  	  28.448 GB/s  		
+wikipedia_mars/japanese.utf16.txt	   2.444 GB/s  	  30.137 GB/s  	  27.489 GB/s  		
+wikipedia_mars/korean.utf16.txt	   2.499 GB/s  	  28.879 GB/s  	  27.779 GB/s  		
+wikipedia_mars/persan.utf16.txt	   2.444 GB/s  	  30.011 GB/s  	  27.557 GB/s  		
+wikipedia_mars/portuguese.utf16.txt	   2.382 GB/s  	  30.217 GB/s  	  28.325 GB/s  		
+wikipedia_mars/russian.utf16.txt	   2.495 GB/s  	  30.236 GB/s  	  28.367 GB/s  		
+wikipedia_mars/thai.utf16.txt	   2.456 GB/s  	  30.183 GB/s  	  28.354 GB/s  		
+wikipedia_mars/turkish.utf16.txt	   2.385 GB/s  	  30.227 GB/s  	  28.464 GB/s  		
+wikipedia_mars/vietnamese.utf16.txt	   2.423 GB/s  	  30.157 GB/s  	  28.370 GB/s  
+
+
+validate_utf16_with_errors:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf16.txt	   2.142 GB/s  	  27.991 GB/s  	  26.264 GB/s  		
+lipsum/Chinese-Lipsum.utf16.txt	   2.142 GB/s  	  33.278 GB/s  	  29.604 GB/s  		
+lipsum/Emoji-Lipsum.utf16.txt	   2.485 GB/s  	  14.437 GB/s  	  11.166 GB/s  		
+lipsum/Hebrew-Lipsum.utf16.txt	   2.142 GB/s  	  28.976 GB/s  	  27.181 GB/s  		
+lipsum/Hindi-Lipsum.utf16.txt	   2.141 GB/s  	  31.506 GB/s  	  28.554 GB/s  		
+lipsum/Japanese-Lipsum.utf16.txt	   2.142 GB/s  	  32.865 GB/s  	  29.310 GB/s  		
+lipsum/Korean-Lipsum.utf16.txt	   2.142 GB/s  	  32.804 GB/s  	  29.306 GB/s  		
+lipsum/Latin-Lipsum.utf16.txt	   2.142 GB/s  	  28.091 GB/s  	  27.383 GB/s  		
+lipsum/Russian-Lipsum.utf16.txt	   2.142 GB/s  	  28.010 GB/s  	  26.658 GB/s  		
+wikipedia_mars/arabic.utf16.txt	   2.142 GB/s  	  30.184 GB/s  	  28.504 GB/s  		
+wikipedia_mars/chinese.utf16.txt	   2.142 GB/s  	  29.926 GB/s  	  27.497 GB/s  		
+wikipedia_mars/czech.utf16.txt	   2.142 GB/s  	  29.903 GB/s  	  27.475 GB/s  		
+wikipedia_mars/english.utf16.txt	   2.142 GB/s  	  30.262 GB/s  	  28.493 GB/s  		
+wikipedia_mars/esperanto.utf16.txt	   2.142 GB/s  	  28.278 GB/s  	  27.628 GB/s  		
+wikipedia_mars/french.utf16.txt	   2.142 GB/s  	  30.157 GB/s  	  28.451 GB/s  		
+wikipedia_mars/german.utf16.txt	   2.142 GB/s  	  30.077 GB/s  	  28.461 GB/s  		
+wikipedia_mars/greek.utf16.txt	   2.142 GB/s  	  29.916 GB/s  	  27.421 GB/s  		
+wikipedia_mars/hebrew.utf16.txt	   2.142 GB/s  	  29.929 GB/s  	  27.458 GB/s  		
+wikipedia_mars/hindi.utf16.txt	   2.142 GB/s  	  30.305 GB/s  	  28.404 GB/s  		
+wikipedia_mars/japanese.utf16.txt	   2.142 GB/s  	  29.910 GB/s  	  27.394 GB/s  		
+wikipedia_mars/korean.utf16.txt	   2.142 GB/s  	  28.263 GB/s  	  27.517 GB/s  		
+wikipedia_mars/persan.utf16.txt	   2.142 GB/s  	  29.867 GB/s  	  27.345 GB/s  		
+wikipedia_mars/portuguese.utf16.txt	   2.118 GB/s  	  30.167 GB/s  	  28.325 GB/s  		
+wikipedia_mars/russian.utf16.txt	   2.142 GB/s  	  30.178 GB/s  	  28.367 GB/s  		
+wikipedia_mars/thai.utf16.txt	   2.142 GB/s  	  30.138 GB/s  	  28.504 GB/s  		
+wikipedia_mars/turkish.utf16.txt	   2.142 GB/s  	  30.252 GB/s  	  28.464 GB/s  		
+wikipedia_mars/vietnamese.utf16.txt	   2.142 GB/s  	  30.189 GB/s  	  28.441 GB/s  
+
+
+validate_utf32:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf32.txt	   6.659 GB/s  	  36.538 GB/s  	  19.941 GB/s  		
+lipsum/Chinese-Lipsum.utf32.txt	   6.651 GB/s  	  36.443 GB/s  	  19.881 GB/s  		
+lipsum/Emoji-Lipsum.utf32.txt	   6.647 GB/s  	  39.307 GB/s  	  19.892 GB/s  		
+lipsum/Hebrew-Lipsum.utf32.txt	   6.656 GB/s  	  36.484 GB/s  	  19.949 GB/s  		
+lipsum/Hindi-Lipsum.utf32.txt	   6.656 GB/s  	  36.456 GB/s  	  19.918 GB/s  		
+lipsum/Japanese-Lipsum.utf32.txt	   6.650 GB/s  	  36.451 GB/s  	  19.893 GB/s  		
+lipsum/Korean-Lipsum.utf32.txt	   6.653 GB/s  	  36.374 GB/s  	  19.922 GB/s  		
+lipsum/Latin-Lipsum.utf32.txt	   6.518 GB/s  	  37.800 GB/s  	  19.929 GB/s  		
+lipsum/Russian-Lipsum.utf32.txt	   6.630 GB/s  	  36.580 GB/s  	  19.942 GB/s  		
+wikipedia_mars/arabic.utf32.txt	   6.528 GB/s  	  37.705 GB/s  	  19.986 GB/s  		
+wikipedia_mars/chinese.utf32.txt	   6.523 GB/s  	  37.746 GB/s  	  19.958 GB/s  		
+wikipedia_mars/czech.utf32.txt	   6.524 GB/s  	  37.726 GB/s  	  19.956 GB/s  		
+wikipedia_mars/english.utf32.txt	   6.528 GB/s  	  37.723 GB/s  	  19.985 GB/s  		
+wikipedia_mars/esperanto.utf32.txt	   6.531 GB/s  	  37.472 GB/s  	  19.935 GB/s  		
+wikipedia_mars/french.utf32.txt	   6.529 GB/s  	  37.692 GB/s  	  19.985 GB/s  		
+wikipedia_mars/german.utf32.txt	   6.526 GB/s  	  37.751 GB/s  	  19.972 GB/s  		
+wikipedia_mars/greek.utf32.txt	   6.524 GB/s  	  37.756 GB/s  	  19.958 GB/s  		
+wikipedia_mars/hebrew.utf32.txt	   6.523 GB/s  	  37.768 GB/s  	  19.959 GB/s  		
+wikipedia_mars/hindi.utf32.txt	   6.527 GB/s  	  37.735 GB/s  	  19.979 GB/s  		
+wikipedia_mars/japanese.utf32.txt	   6.522 GB/s  	  37.743 GB/s  	  19.948 GB/s  		
+wikipedia_mars/korean.utf32.txt	   6.584 GB/s  	  37.061 GB/s  	  19.950 GB/s  		
+wikipedia_mars/persan.utf32.txt	   6.523 GB/s  	  37.729 GB/s  	  19.951 GB/s  		
+wikipedia_mars/portuguese.utf32.txt	   6.527 GB/s  	  37.727 GB/s  	  19.979 GB/s  		
+wikipedia_mars/russian.utf32.txt	   6.528 GB/s  	  37.720 GB/s  	  19.980 GB/s  		
+wikipedia_mars/thai.utf32.txt	   6.528 GB/s  	  37.705 GB/s  	  19.986 GB/s  		
+wikipedia_mars/turkish.utf32.txt	   6.525 GB/s  	  37.730 GB/s  	  19.967 GB/s  		
+wikipedia_mars/vietnamese.utf32.txt	   6.527 GB/s  	  37.731 GB/s  	  19.980 GB/s  
+
+
+validate_utf32_with_errors:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf32.txt	   4.229 GB/s  	  22.600 GB/s  	  11.964 GB/s  		
+lipsum/Chinese-Lipsum.utf32.txt	   4.223 GB/s  	  22.667 GB/s  	  11.939 GB/s  		
+lipsum/Emoji-Lipsum.utf32.txt	   4.242 GB/s  	  23.450 GB/s  	  10.355 GB/s  		
+lipsum/Hebrew-Lipsum.utf32.txt	   4.222 GB/s  	  22.507 GB/s  	  11.957 GB/s  		
+lipsum/Hindi-Lipsum.utf32.txt	   4.220 GB/s  	  22.793 GB/s  	  11.958 GB/s  		
+lipsum/Japanese-Lipsum.utf32.txt	   4.206 GB/s  	  22.916 GB/s  	  11.941 GB/s  		
+lipsum/Korean-Lipsum.utf32.txt	   4.221 GB/s  	  22.433 GB/s  	  11.945 GB/s  		
+lipsum/Latin-Lipsum.utf32.txt	   4.320 GB/s  	  22.700 GB/s  	  11.417 GB/s  		
+lipsum/Russian-Lipsum.utf32.txt	   4.281 GB/s  	  23.123 GB/s  	  11.967 GB/s  		
+wikipedia_mars/arabic.utf32.txt	   4.320 GB/s  	  22.351 GB/s  	  11.411 GB/s  		
+wikipedia_mars/chinese.utf32.txt	   4.321 GB/s  	  22.688 GB/s  	  11.424 GB/s  		
+wikipedia_mars/czech.utf32.txt	   4.321 GB/s  	  22.695 GB/s  	  11.424 GB/s  		
+wikipedia_mars/english.utf32.txt	   4.322 GB/s  	  22.728 GB/s  	  11.444 GB/s  		
+wikipedia_mars/esperanto.utf32.txt	   4.315 GB/s  	  22.690 GB/s  	  11.536 GB/s  		
+wikipedia_mars/french.utf32.txt	   4.323 GB/s  	  22.714 GB/s  	  11.446 GB/s  		
+wikipedia_mars/german.utf32.txt	   4.322 GB/s  	  22.723 GB/s  	  11.433 GB/s  		
+wikipedia_mars/greek.utf32.txt	   4.321 GB/s  	  22.698 GB/s  	  11.426 GB/s  		
+wikipedia_mars/hebrew.utf32.txt	   4.321 GB/s  	  22.699 GB/s  	  11.425 GB/s  		
+wikipedia_mars/hindi.utf32.txt	   4.322 GB/s  	  22.749 GB/s  	  11.440 GB/s  		
+wikipedia_mars/japanese.utf32.txt	   4.321 GB/s  	  22.678 GB/s  	  11.421 GB/s  		
+wikipedia_mars/korean.utf32.txt	   4.297 GB/s  	  22.876 GB/s  	  11.828 GB/s  		
+wikipedia_mars/persan.utf32.txt	   4.321 GB/s  	  22.703 GB/s  	  11.421 GB/s  		
+wikipedia_mars/portuguese.utf32.txt	   4.322 GB/s  	  22.740 GB/s  	  11.440 GB/s  		
+wikipedia_mars/russian.utf32.txt	   4.322 GB/s  	  22.739 GB/s  	  11.443 GB/s  		
+wikipedia_mars/thai.utf32.txt	   4.322 GB/s  	  22.723 GB/s  	  11.444 GB/s  		
+wikipedia_mars/turkish.utf32.txt	   4.322 GB/s  	  22.712 GB/s  	  11.431 GB/s  		
+wikipedia_mars/vietnamese.utf32.txt	   4.322 GB/s  	  22.739 GB/s  	  11.440 GB/s  
+
+
+validate_utf8:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf8.txt	   0.627 GB/s  	   7.115 GB/s  	   5.147 GB/s  		
+lipsum/Chinese-Lipsum.utf8.txt	   0.724 GB/s  	   7.178 GB/s  	   5.147 GB/s  		
+lipsum/Emoji-Lipsum.utf8.txt	   0.908 GB/s  	   7.179 GB/s  	   5.145 GB/s  		
+lipsum/Hebrew-Lipsum.utf8.txt	   0.638 GB/s  	   7.181 GB/s  	   5.147 GB/s  		
+lipsum/Hindi-Lipsum.utf8.txt	   0.600 GB/s  	   7.125 GB/s  	   5.149 GB/s  		
+lipsum/Japanese-Lipsum.utf8.txt	   0.694 GB/s  	   7.175 GB/s  	   5.149 GB/s  		
+lipsum/Korean-Lipsum.utf8.txt	   0.751 GB/s  	   7.161 GB/s  	   5.147 GB/s  		
+lipsum/Latin-Lipsum.utf8.txt	  13.273 GB/s  	  39.518 GB/s  	  35.631 GB/s  		
+lipsum/Russian-Lipsum.utf8.txt	   0.511 GB/s  	   7.118 GB/s  	   5.151 GB/s  		
+wikipedia_mars/arabic.utf8.txt	   0.879 GB/s  	   9.598 GB/s  	   6.639 GB/s  		
+wikipedia_mars/chinese.utf8.txt	   1.228 GB/s  	   8.643 GB/s  	   5.914 GB/s  		
+wikipedia_mars/czech.utf8.txt	   1.390 GB/s  	   8.936 GB/s  	   6.168 GB/s  		
+wikipedia_mars/english.utf8.txt	   9.359 GB/s  	  24.660 GB/s  	  23.112 GB/s  		
+wikipedia_mars/esperanto.utf8.txt	   4.633 GB/s  	  12.459 GB/s  	   9.087 GB/s  		
+wikipedia_mars/french.utf8.txt	   2.200 GB/s  	  10.427 GB/s  	   7.399 GB/s  		
+wikipedia_mars/german.utf8.txt	   4.198 GB/s  	  12.853 GB/s  	   9.474 GB/s  		
+wikipedia_mars/greek.utf8.txt	   0.948 GB/s  	   9.357 GB/s  	   6.530 GB/s  		
+wikipedia_mars/hebrew.utf8.txt	   0.768 GB/s  	   8.331 GB/s  	   5.685 GB/s  		
+wikipedia_mars/hindi.utf8.txt	   0.954 GB/s  	   9.481 GB/s  	   6.609 GB/s  		
+wikipedia_mars/japanese.utf8.txt	   1.187 GB/s  	   8.664 GB/s  	   5.936 GB/s  		
+wikipedia_mars/korean.utf8.txt	   1.031 GB/s  	   8.400 GB/s  	   5.770 GB/s  		
+wikipedia_mars/persan.utf8.txt	   0.895 GB/s  	   8.957 GB/s  	   6.214 GB/s  		
+wikipedia_mars/portuguese.utf8.txt	   2.678 GB/s  	  10.878 GB/s  	   7.848 GB/s  		
+wikipedia_mars/russian.utf8.txt	   0.804 GB/s  	   8.858 GB/s  	   6.051 GB/s  		
+wikipedia_mars/thai.utf8.txt	   1.168 GB/s  	   9.950 GB/s  	   6.934 GB/s  		
+wikipedia_mars/turkish.utf8.txt	   1.603 GB/s  	  10.294 GB/s  	   7.222 GB/s  		
+wikipedia_mars/vietnamese.utf8.txt	   0.900 GB/s  	   8.924 GB/s  	   6.139 GB/s  
+
+
+validate_utf8_with_errors:
+                                   fallback           lasx              lsx	
+lipsum/Arabic-Lipsum.utf8.txt	   0.701 GB/s  	   6.928 GB/s  	   5.147 GB/s  		
+lipsum/Chinese-Lipsum.utf8.txt	   0.726 GB/s  	   7.141 GB/s  	   5.147 GB/s  		
+lipsum/Emoji-Lipsum.utf8.txt	   0.918 GB/s  	   7.163 GB/s  	   5.145 GB/s  		
+lipsum/Hebrew-Lipsum.utf8.txt	   0.711 GB/s  	   7.165 GB/s  	   5.147 GB/s  		
+lipsum/Hindi-Lipsum.utf8.txt	   0.599 GB/s  	   6.934 GB/s  	   5.152 GB/s  		
+lipsum/Japanese-Lipsum.utf8.txt	   0.694 GB/s  	   7.191 GB/s  	   5.145 GB/s  		
+lipsum/Korean-Lipsum.utf8.txt	   0.752 GB/s  	   7.192 GB/s  	   5.143 GB/s  		
+lipsum/Latin-Lipsum.utf8.txt	  17.319 GB/s  	  40.626 GB/s  	  34.846 GB/s  		
+lipsum/Russian-Lipsum.utf8.txt	   0.551 GB/s  	   6.934 GB/s  	   5.148 GB/s  		
+wikipedia_mars/arabic.utf8.txt	   0.938 GB/s  	   8.131 GB/s  	   6.681 GB/s  		
+wikipedia_mars/chinese.utf8.txt	   1.237 GB/s  	   7.693 GB/s  	   5.955 GB/s  		
+wikipedia_mars/czech.utf8.txt	   1.467 GB/s  	   7.897 GB/s  	   6.156 GB/s  		
+wikipedia_mars/english.utf8.txt	  10.536 GB/s  	  24.817 GB/s  	  22.422 GB/s  		
+wikipedia_mars/esperanto.utf8.txt	   5.161 GB/s  	  11.673 GB/s  	   8.802 GB/s  		
+wikipedia_mars/french.utf8.txt	   2.296 GB/s  	   8.524 GB/s  	   7.296 GB/s  		
+wikipedia_mars/german.utf8.txt	   4.458 GB/s  	  11.833 GB/s  	   9.138 GB/s  		
+wikipedia_mars/greek.utf8.txt	   1.020 GB/s  	   8.353 GB/s  	   6.467 GB/s  		
+wikipedia_mars/hebrew.utf8.txt	   0.818 GB/s  	   7.332 GB/s  	   5.732 GB/s  		
+wikipedia_mars/hindi.utf8.txt	   0.956 GB/s  	   8.112 GB/s  	   6.581 GB/s  		
+wikipedia_mars/japanese.utf8.txt	   1.199 GB/s  	   7.623 GB/s  	   5.961 GB/s  		
+wikipedia_mars/korean.utf8.txt	   1.027 GB/s  	   7.592 GB/s  	   5.777 GB/s  		
+wikipedia_mars/persan.utf8.txt	   0.957 GB/s  	   8.052 GB/s  	   6.177 GB/s  		
+wikipedia_mars/portuguese.utf8.txt	   2.836 GB/s  	   9.511 GB/s  	   7.620 GB/s  		
+wikipedia_mars/russian.utf8.txt	   0.864 GB/s  	   7.584 GB/s  	   6.108 GB/s  		
+wikipedia_mars/thai.utf8.txt	   1.170 GB/s  	   8.119 GB/s  	   6.965 GB/s  		
+wikipedia_mars/turkish.utf8.txt	   1.679 GB/s  	   9.267 GB/s  	   7.183 GB/s  		
+wikipedia_mars/vietnamese.utf8.txt	   0.923 GB/s  	   7.804 GB/s  	   6.155 GB/s  

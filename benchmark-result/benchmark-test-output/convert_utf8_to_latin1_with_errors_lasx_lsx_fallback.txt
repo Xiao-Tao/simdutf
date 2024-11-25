@@ -1,0 +1,22 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+===========================
+Using ICU version 72.1
+testcases: 1
+input detected as UTF8
+current system detected as lsx
+===========================
+convert_utf8_to_latin1_with_errors+fallback, input size: 86940, iterations: 30000, dataset: ./lipsum/Latin-Lipsum.utf8.txt
+   2.816 ins/byte,    0.629 cycle/byte,    3.984 GB/s (3.5 %),     2.506 GHz,    4.478 ins/cycle 
+   2.816 ins/char,    0.629 cycle/char,    3.984 Gc/s (3.5 %)     1.00 byte/char  21820.0 ns
+convert_utf8_to_latin1_with_errors+lasx, input size: 86940, iterations: 30000, dataset: ./lipsum/Latin-Lipsum.utf8.txt
+   0.256 ins/byte,    0.095 cycle/byte,   26.385 GB/s (0.4 %),     2.518 GHz,    2.684 ins/cycle 
+   0.256 ins/char,    0.095 cycle/char,   26.385 Gc/s (0.4 %)     1.00 byte/char   3295.0 ns
+convert_utf8_to_latin1_with_errors+lsx, input size: 86940, iterations: 30000, dataset: ./lipsum/Latin-Lipsum.utf8.txt
+   0.334 ins/byte,    0.120 cycle/byte,   21.102 GB/s (11.5 %),     2.525 GHz,    2.792 ins/cycle 
+   0.334 ins/char,    0.120 cycle/char,   21.102 Gc/s (11.5 %)     1.00 byte/char   4120.0 ns
+WARNING: Measurements are noisy, try increasing iteration count (-I).
+
+
+                                       fallback           lasx              lsx	
+lipsum/Latin-Lipsum.utf8.txt	   3.984 GB/s  	  26.385 GB/s  	  21.102 GB/s  

@@ -1,0 +1,20 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+===========================
+Using ICU version 72.1
+testcases: 1
+input detected as UTF8
+current system detected as lsx
+===========================
+convert_utf32_to_latin1_with_errors+fallback, input size: 347760, iterations: 30000, dataset: ./lipsum/Latin-Lipsum.utf32.txt
+   1.751 ins/byte,    0.378 cycle/byte,    6.621 GB/s (4.2 %),     2.505 GHz,    4.627 ins/cycle 
+   7.003 ins/char,    1.513 cycle/char,    1.655 Gc/s (4.2 %)     4.00 byte/char  52520.0 ns
+convert_utf32_to_latin1_with_errors+lasx, input size: 347760, iterations: 30000, dataset: ./lipsum/Latin-Lipsum.utf32.txt
+   0.235 ins/byte,    0.076 cycle/byte,   33.026 GB/s (0.9 %),     2.513 GHz,    3.091 ins/cycle 
+   0.941 ins/char,    0.304 cycle/char,    8.256 Gc/s (0.9 %)     4.00 byte/char  10530.0 ns
+convert_utf32_to_latin1_with_errors+lsx, input size: 347760, iterations: 30000, dataset: ./lipsum/Latin-Lipsum.utf32.txt
+   0.438 ins/byte,    0.124 cycle/byte,   20.254 GB/s (0.4 %),     2.508 GHz,    3.539 ins/cycle 
+   1.753 ins/char,    0.495 cycle/char,    5.063 Gc/s (0.4 %)     4.00 byte/char  17170.0 ns
+
+                                   fallback           lasx              lsx	
+lipsum/Latin-Lipsum.utf32.txt	   6.621 GB/s  	  33.026 GB/s  	  20.254 GB/s  
